@@ -11,18 +11,19 @@
 #include <string.h>
 #include "globals.h"
 #include "helper.h"
+#include "decoding.h"
 
 void performance_metric(char * folder_produced, char * folder_actual)
 {
-	DIR	* fp;
+	DIR	* folder;
 	int number_of_jpegs = 0;
 	struct dirent *dir;
 
-	fp = opendir(folder_produced);
+	folder = opendir(folder_produced);
 
-	if(fp)
+	if(folder)
 	{
-		while((dir = readdir(fp)) != NULL)
+		while((dir = readdir(folder)) != NULL)
 		{
 			char * file_name = dir -> d_name;
 
@@ -49,7 +50,7 @@ void performance_metric(char * folder_produced, char * folder_actual)
 			}
 		}
 
-		closedir(fp);
+		closedir(folder);
 
 		//carving statistics
 		int actual_number_of_jpegs =  get_files_by_type("external\\files", "jpg");

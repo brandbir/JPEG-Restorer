@@ -23,15 +23,15 @@ void zero_array(float array[], int size)
 
 int get_files_by_type(char * folder_name, char * file_type)
 {
-	DIR * fa;
+	DIR * folder;
 	struct dirent * dir;
 	int files_found = 0;
 
-	fa = opendir(folder_name);
+	folder = opendir(folder_name);
 
-	if(fa)
+	if(folder)
 	{
-		while((dir = readdir(fa)) != NULL)
+		while((dir = readdir(folder)) != NULL)
 		{
 			char * actual_file_name = dir -> d_name;
 			char * file_ext= strchr(actual_file_name,'.');
@@ -47,7 +47,7 @@ int get_files_by_type(char * folder_name, char * file_type)
 		return -1;
 	}
 
-	closedir(fa);
+	closedir(folder);
 	return files_found;
 }
 
@@ -187,7 +187,7 @@ int validated_header_position(BYTE cluster_buffer[], int start_position)
 	if(check_header == 0)
 		return 1;
 
-	for(i = start_position; i < cluster_size; i++)
+	for(i = start_position; i < SECTOR_SIZE; i++)
 	{
 		BYTE current = cluster_buffer[i];
 		BYTE next    = cluster_buffer[i + 1];
