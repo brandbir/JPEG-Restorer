@@ -89,70 +89,38 @@ void histogram_difference(FILE * file_out, float histogram_prev[], float histogr
 	fprintf(file_out, "]) total : %f, intersection: %.4f\n", get_sum(histogram_prev, 256), intersection);
 }
 
-void histogram_statistics_write(float histogram_prev[], float histogram_next[], BYTE cluster_buffer[], FILE * file_jpeg)
+void histogram_statistics_write(float hist_sector[], float hist_jpeg[], BYTE cluster_buffer[], FILE * file_jpeg)
 {
 
 	float intersection	= 0;
 	int j;
-	int header_footer = 0;
 
+	//computing intersection between the current sector histogram
+	//and the ideal jpeg histogram
 	for(j = 0; j <= 255; j++)
 	{
-		if(histogram_prev[j] < histogram_next[j])
-			intersection += histogram_prev[j];
+		if(hist_sector[j] < hist_jpeg[j])
+			intersection += hist_sector[j];
 		else
-			intersection += histogram_next[j];
+			intersection += hist_jpeg[j];
 	}
 
-	fprintf(file_out, "%d - Intersection %f - last marker %d\n", cluster_index, intersection, last_marker);
-
-	if(intersection < 0.10)
-		printf("Sector %d is not a JPEG!\n", cluster_index);
-
-	//Writing the header/footer to the current opened file
-	if(temp_intersection == -1)
+	if(intersection < ENTROPY_THRESHOLD)
 	{
-		int offset;
-
-		//writing sector to the opened file
-		for (offset = write_start_offset; offset < write_end_offset; offset++)
-			fwrite(&cluster_buffer[offset], sizeof(BYTE), sizeof(BYTE), file_jpeg);
-
-		//checking if file needs to be closed
-		if(file_opened == 2)
+		//eliminating the possibility of setting a sector with restart marker to a non jpeg sector
+		if(last_marker != -1 && last_marker_sector != sector_index && marker_continuation != 1)
 		{
-			write_end_offset = 512;
-			fclose(file_jpeg);
-			file_opened = 0;
+			printf("Sector %d is not a JPEG (%d) - last marker: %d!\n", sector_index, last_marker, last_marker_sector);
+			printf("Next sector needs to be a JPEG sector with a restart marker %d\n", last_marker + 1);
+			next_marker = last_marker + 1;
+			stop_write = 1;
 		}
 
-		header_footer = 1;
-		write_start_offset = 0;
+		if(marker_continuation == 1)
+			marker_continuation = -1;
 	}
 
-	//not header/footer
-	//dfrws:2006 challenge - 0.55
-	else if(fabs(temp_intersection - intersection) > 0.55)
-	{
-		/*
-		 * if there was a rapid change in the histogram of the sectors
-		 * switch writing mode (this means that if the carver was carving a particular
-		 * file it needs to stop carving the current file and stops for an other rapid change
-		 * to continue from the stopping point
-		 */
-
-		if(stop_write == 1)
-			stop_write = 0;
-		else
-			stop_write = 1;
-
-		printf("Last Marker: %d, Rapid Change in Histograms detected at sector %d [Previous %f - Current %f] \n", last_marker, cluster_index, temp_intersection, intersection);
-	}
-
-	//This needs to be executed if and only if the write operation is enabled given
-	//that no rapid change was encountered between two successive histograms and also
-	//that the current sector is not a fragment of a header/footer
-	if(stop_write == 0 && header_footer == 0)
+	if(stop_write == 0)
 	{
 		int offset;
 		for(offset = write_start_offset; offset < write_end_offset; offset++)
@@ -160,17 +128,14 @@ void histogram_statistics_write(float histogram_prev[], float histogram_next[], 
 
 		if(file_opened == 2)
 		{
-			write_end_offset = 512;
+			write_end_offset = SECTOR_SIZE;
 			fclose(file_jpeg);
 			file_opened = 0;
 		}
 
-		write_start_offset = 0; // can be deleted!!
+		write_start_offset = 0;
 	}
-
-	temp_intersection = intersection;
 }
-
 
 void normalize_histogram(float histogram[], int hist_size)
 {
@@ -196,17 +161,27 @@ int validated_header_position(BYTE cluster_buffer[], int start_position)
 		//obviously not contain the thumbnail of the current jpeg that
 		//is being recovered
 		if(current == 0xff && next == 0xd8)
+		{
+			printf("validated_header: ffd8\n");
 			return 1;
+		}
 
+		//restart interval signifies a thumbnail
 		else if(current == 0xff && next == 0xdd)
+		{
+			printf("validated_header: ffdd\n");
 			return 0;
+		}
 
-		//if the first restart marker (oxffd0) is
+		//if the first restart marker (Oxffd0) is
 		//to be found in this sector it can be assumed
 		//that this is the first part of the thumbnail
 		//of the current JPEG that is being carved
 		else if(current == 0xff && next == 0xd0)
+		{
+			printf("validated_header: ffd0\n");
 			return 0;
+		}
 	}
 
 	return 0;
@@ -219,6 +194,8 @@ int validate_jpeg(char * file_path, char * folder_actual)
 	struct dirent * dir;
 
 	fa = opendir(folder_actual);
+	FILE * jpegs_recovered = fopen("external/output/jpegs_recovered2.txt", "w");
+	FILE * jpegs_partially_recovered = fopen("external/output/jpegs_partially_recovered2.txt", "w");
 
 	if(fa)
 	{
@@ -242,6 +219,9 @@ int validate_jpeg(char * file_path, char * folder_actual)
 		}
 
 		closedir(fa);
+		fclose(jpegs_recovered);
+		fclose(jpegs_partially_recovered);
+
 		fprintf(jpegs_partially_recovered, "- %s\n", file_path);
 		return found;
 	}

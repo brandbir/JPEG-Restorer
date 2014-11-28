@@ -16,11 +16,12 @@ unsigned char pjpeg_need_bytes_callback(unsigned char* buf, unsigned char buf_si
 {
 	unsigned int n = min((unsigned int)(jpeg_size - jpeg_filepos), (unsigned int)buf_size);
 
-	if (n && (fread(buf, 1, n, jpeg_file) != n))
+	if (n && (fread(buf, 1, n, jpeg_to_decode) != n))
 		return PJPG_STREAM_READ_ERROR;
 
 	*bytes_actually_read = (unsigned char)(n);
 	jpeg_filepos += n;
+
 	return 0;
 }
 
@@ -33,15 +34,15 @@ unsigned char pjpeg_need_bytes_callback(unsigned char* buf, unsigned char buf_si
 int decode_jpeg(char * filename)
 {
 	pjpeg_image_info_t image_details;
-	jpeg_file = fopen(filename, "rb");
+	jpeg_to_decode = fopen(filename, "rb");
 
-	if(!jpeg_file)
+	if(!jpeg_to_decode)
 		printf("JPEG file %s was not found...", filename);
 
-	fseek(jpeg_file, 0, SEEK_END);
-	jpeg_size = ftell(jpeg_file);
+	fseek(jpeg_to_decode, 0, SEEK_END);
+	jpeg_size = ftell(jpeg_to_decode);
 	jpeg_filepos = 0;
-	fseek(jpeg_file, 0, SEEK_SET);
+	fseek(jpeg_to_decode, 0, SEEK_SET);
 	int status = pjpeg_decode_init(&image_details, pjpeg_need_bytes_callback, NULL, (unsigned char)1);
 
 	if(status)
@@ -49,7 +50,6 @@ int decode_jpeg(char * filename)
 		if(status == PJPG_UNSUPPORTED_MODE)
 			printf("Progressive JPEG files are not supported...\n");
 
-		fclose(jpeg_file);
 		return 0;
 	}
 	else
@@ -57,10 +57,9 @@ int decode_jpeg(char * filename)
 		while(status == 0)
 		{
 			status = pjpeg_decode_mcu();
-			if(status == PJPG_BAD_RESTART_MARKER)
-				fprintf(file_logs, "MCU status :: %d -> %s\n", status, filename);
 		}
 
 		return 1;
 	}
+
 }

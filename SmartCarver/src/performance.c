@@ -31,7 +31,7 @@ void performance_metric(char * folder_produced, char * folder_actual)
 			{
 				number_of_jpegs++;
 				char file_path[50];
-				sprintf(file_path, "%s%s%s", folder_produced, "\\", file_name);
+				sprintf(file_path, "%s%s", folder_produced, file_name);
 
 				//trying to decode JPEG
 				if(decode_jpeg(file_path))

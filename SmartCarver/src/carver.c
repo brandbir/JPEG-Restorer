@@ -38,29 +38,27 @@ char file_jpeg_name[30];
 
 int handle_jpeg_header(BYTE cluster_buffer[], int byte_offset)
 {
-	//TODO this needs to eventually be removed. This is set because when image is not totally recovered successfully
-	//the check header will not be set accordingly
 	if(byte_offset == 0)
 		check_header = 0;
 
-	//eliminating the possibility of finding two headers in the same cluster
+	//eliminating the possibility of finding two headers in the same sector
 	//and also handling the addition of EXIF Thumbnails to the current carving JPEG image
 
 	//TODO : validated_header_position was removed for the datasets nps-2009-canon2-gen1.raw
-	if(skip_next_header_exif != 1 && validated_header_position(cluster_buffer, byte_offset + 2))
+	if(validated_header_position(cluster_buffer, byte_offset + 2))
 	{
 		//setting the exact byte position of the header found
-		last_jpeg_header_file_offset = (cluster_index * SECTOR_SIZE) + byte_offset;
+		last_jpeg_header_file_offset = (sector_index * SECTOR_SIZE) + byte_offset;
 
 		//updating the number of JPEG headers found
 		jpeg_headers++;
-		header_offset = cluster_index;
+		header_offset = sector_index;
 
 		//creating jpeg's file name
 		sprintf(file_jpeg_name, "%s%d%s", output_folder_name, jpeg_headers, ".jpg");
 
-		printf("\nHeader %d found at Sector: %d\n", jpeg_headers, cluster_index);
-		fprintf(file_logs, "Header %d found at Sector: %d\n\n", jpeg_headers, cluster_index);
+		//printf("\nHeader %d found at Sector: %d\n", jpeg_headers, sector_index);
+		printf("%d: Start of image %d\n", sector_index, jpeg_headers);
 		write_start_offset = byte_offset;
 
 		//creating file for the carved JPEG
@@ -96,37 +94,24 @@ int handle_jpeg_footer(int byte_offset)
 	else
 	{
 		jpeg_footers++;
-		last_jpeg_footer = cluster_index;
-		last_jpeg_footer_offset = (cluster_index * 512) + byte_offset;
+		last_jpeg_footer = sector_index;
+		last_jpeg_footer_offset = (sector_index * 512) + byte_offset;
 
-		printf("\nFooter %d found at Sector: %d (%d)\n", jpeg_footers, cluster_index, last_marker);
-		fprintf(file_logs, "Footer %d found at Sector: %d\n", jpeg_footers, cluster_index / SECTOR_SIZE);
+		printf("%d: End Of Image %d\n\n", sector_index, jpeg_footers);
 
-		//prepared for closing the file
+		//file is prepared to be closed
 		file_opened = 2;
 
 		//adding extra 1 for less than equivalence
 		write_end_offset = byte_offset + 2;
 		temp_intersection = -1;
 
-		//Once we find the actual footer of the JPEG, the exif flag must be restarted
-		skip_next_header_exif = 0;
 		check_header = 0;
 	}
 
+	last_marker = -1;
+
 	return byte_offset;
-}
-
-void handle_exif_marker()
-{
-	//If EXIF application marker is encountered we need to allow all the
-	//following JPEG headers to be added to the current opened file that
-	//is being used for recovery until we find the other exif application marker
-
-	if(skip_next_header_exif)
-		skip_next_header_exif = 0;
-	else
-		skip_next_header_exif = 1;
 }
 
 int handle_marker(BYTE cluster_buffer[], int byte_offset)
@@ -192,11 +177,24 @@ int handle_marker(BYTE cluster_buffer[], int byte_offset)
 			break;
 	}
 
+	if(changed)
+	{
+		//printf("%d: marker ffd%d\n", sector_index, current_marker);
+		if(current_marker == next_marker)
+		{
+			printf("This is the continuation sector\n");
+			stop_write = 0;
+			next_marker = -1;
+		}
+
+		last_marker_sector = sector_index;
+	}
+
 	if((current_marker != -1) && changed && ((current_marker - last_marker != 1) && current_marker != 0))
 	{
-		printf("offset %d) current_marker : %d - last_marker: %d\n", (cluster_index*512) + byte_offset, current_marker, last_marker);
-		printf("Skipping this sector due to invalid marker..\n");
-		write_sector = 0;
+		//printf("offset %d) current_marker : %d - last_marker: %d\n", (sector_index * SECTOR_SIZE) + byte_offset, current_marker, last_marker);
+		//printf("Skipping this sector due to invalid marker..\n");
+		//write_sector = 0;
 	}
 	else
 	{
@@ -208,6 +206,7 @@ int handle_marker(BYTE cluster_buffer[], int byte_offset)
 
 void write_sector_to_file(BYTE cluster_buffer[], int bytes_read)
 {
+	//printf("Writing sector %d : write mode: %d\n", sector_index, write_sector);
 	//checking if writing sector to file is enabled
 	if(write_sector)
 	{
@@ -218,10 +217,10 @@ void write_sector_to_file(BYTE cluster_buffer[], int bytes_read)
 		total_bytes += bytes_read;
 
 		//printing histogram for each sector read from disk image
-		fprintf(file_histograms, "Sector : %d - bar([0:255], [", cluster_index);
+		fprintf(file_histograms, "Sector : %d - bar([0:255], [", sector_index);
 
 		int j;
-		if(cluster_index == 0)
+		if(sector_index == 0)
 		{
 			for(j = 0; j <= 255; j++)
 				fprintf(file_histograms, "%.4f ", histogram_current_sector[j]);
@@ -249,6 +248,7 @@ void write_sector_to_file(BYTE cluster_buffer[], int bytes_read)
 int finalize()
 {
 	printf("\nCarving Results:\n");
+	printf("Entopy Threshold used                        : %.2f\n", ENTROPY_THRESHOLD);
 	printf("Total JPEG headers found                     : %d\n", jpeg_headers);
 	printf("Total JPEG footers found                     : %d\n", jpeg_footers);
 	printf("Total bytes read                             : %d bytes\n", total_bytes);
@@ -262,22 +262,19 @@ int finalize()
 	fclose(file_in);
 	fclose(file_out);
 	fclose(file_histograms);
-	fclose(jpegs_recovered);
-	fclose(jpegs_partially_recovered);
-	fclose(file_logs);
+
 	return EXIT_SUCCESS;
 }
 
-int main(int argc, char * argv[])
+int carve(char * file_name, char * output_folder, float entropy_threshold)
 {
+	output_folder_name = output_folder;
+	ENTROPY_THRESHOLD = entropy_threshold;
 	//setting timer
 	start_timer = clock();
 
 	//no buffer for stdout
 	setvbuf (stdout, NULL, _IONBF, 0);
-
-	file_name = argv[1];
-	output_folder_name = argv[2];
 
 	struct stat info;
 
@@ -303,12 +300,7 @@ int main(int argc, char * argv[])
 	file_in = fopen(file_name, "rb");
 	file_out = fopen("external/output/out.txt", "w");
 
-
-	jpegs_recovered = fopen("external/output/jpegs_recovered.txt", "w");
-	jpegs_partially_recovered = fopen("external/output/jpegs_partially_recovered.txt", "w");
 	file_histograms = fopen("external/output/histograms.txt", "w");
-	file_logs = fopen("external/output/logs.txt", "w");
-
 
 	if(file_in == NULL)
 	{
@@ -337,10 +329,10 @@ int main(int argc, char * argv[])
 
 		//checking that the read operation was successful
 		if(bytes_read > 0)
-			cluster_index++;
+			sector_index++;
 
 		zero_array(histogram_current_sector, sizeof(histogram_current_sector) / sizeof(histogram_current_sector[0]));
-		fprintf(file_out, "%d\n", cluster_index);
+		fprintf(file_out, "%d\n", sector_index);
 
 		//checking each byte that was read from each sector
 		int byte_offset;
@@ -352,14 +344,58 @@ int main(int argc, char * argv[])
 			{
 				byte_offset = handle_jpeg_header(cluster_buffer, byte_offset);
 			}
+
 			else if(cluster_buffer[byte_offset] == 0xff && cluster_buffer[byte_offset + 1] == 0xd9 && (jpeg_headers - jpeg_footers > 0))
 			{
 				byte_offset = handle_jpeg_footer(byte_offset);
 			}
-			else if(cluster_buffer[byte_offset] == 0xff && cluster_buffer[byte_offset + 1] == 0xe1 && file_opened)
+
+			else if(cluster_buffer[byte_offset] == 0xff && cluster_buffer[byte_offset + 1] == 0xc0 && file_opened)
 			{
-				handle_exif_marker();
+				//printf("%d: Start of Frame (Baseline DCT)\n", sector_index);
 			}
+
+			else if(cluster_buffer[byte_offset] == 0xff && cluster_buffer[byte_offset + 1] == 0xc1 && file_opened)
+			{
+				//printf("%d: Start of Frame (Extended Sequential DCT)\n", sector_index);
+			}
+
+			else if(cluster_buffer[byte_offset] == 0xff && cluster_buffer[byte_offset + 1] == 0xc2 && file_opened)
+			{
+				//printf("%d: Start of Frame (Progressive DCT)\n", sector_index);
+			}
+
+			else if(cluster_buffer[byte_offset] == 0xff && cluster_buffer[byte_offset + 1] == 0xc3 && file_opened)
+			{
+				//printf("%d: Start of Frame (Lossless [Sequential])\n",sector_index);
+			}
+
+
+			else if(cluster_buffer[byte_offset] == 0xff && cluster_buffer[byte_offset + 1] == 0xc4 && file_opened)
+			{
+				//printf("%d: Define Huffman Tables\n", sector_index);
+			}
+
+			else if(cluster_buffer[byte_offset] == 0xff && cluster_buffer[byte_offset + 1] == 0xdb && file_opened)
+			{
+				//printf("%d: Define Quantization Table(s)\n", sector_index);
+			}
+
+			else if(cluster_buffer[byte_offset] == 0xff && cluster_buffer[byte_offset + 1] == 0xda && file_opened)
+			{
+				//printf("%d: Start of Scan\n", sector_index);
+			}
+
+			else if(cluster_buffer[byte_offset] == 0xff && cluster_buffer[byte_offset + 1] == 0xfe && file_opened)
+			{
+				//printf("%d: Comment\n", sector_index);
+			}
+
+			else if(cluster_buffer[byte_offset] == 0xff && cluster_buffer[byte_offset + 1] == 0xdd && file_opened)
+			{
+				//printf("%d: Define Restart Interval\n", sector_index);
+			}
+
 
 			if(file_opened && cluster_buffer[byte_offset] == 0xff)
 			{
@@ -367,11 +403,12 @@ int main(int argc, char * argv[])
 			}
 
 			//Dumping sectors byte values
-			fprintf(file_out, "%x", cluster_buffer[byte_offset]);
+			//fprintf(file_out, "%x", cluster_buffer[byte_offset]);
 			histogram_current_sector[cluster_buffer[byte_offset]]++;
 		}
 
-		write_sector_to_file(cluster_buffer, bytes_read);
+		if(file_opened != 0)
+			write_sector_to_file(cluster_buffer, bytes_read);
 	}
 
 	return finalize();
