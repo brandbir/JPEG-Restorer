@@ -179,7 +179,6 @@ int handle_marker(BYTE cluster_buffer[], int byte_offset)
 
 	if(changed)
 	{
-		//printf("%d: marker ffd%d\n", sector_index, current_marker);
 		if(current_marker == next_marker)
 		{
 			printf("This is the continuation sector\n");
@@ -206,7 +205,6 @@ int handle_marker(BYTE cluster_buffer[], int byte_offset)
 
 void write_sector_to_file(BYTE cluster_buffer[], int bytes_read)
 {
-	//printf("Writing sector %d : write mode: %d\n", sector_index, write_sector);
 	//checking if writing sector to file is enabled
 	if(write_sector)
 	{
@@ -337,7 +335,7 @@ int carve(char * file_name, char * output_folder, float entropy_threshold)
 		//checking each byte that was read from each sector
 		int byte_offset;
 
-		// analyzing
+		// analyzing byte stream of each sector
 		for(byte_offset = 0; byte_offset < sizeof(cluster_buffer) / sizeof(BYTE); byte_offset++)
 		{
 			if(cluster_buffer[byte_offset] == 0xff && cluster_buffer[byte_offset + 1] == 0xd8 && cluster_buffer[byte_offset + 2] == 0xff)
