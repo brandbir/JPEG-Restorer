@@ -14,6 +14,9 @@
 #include "globals.h"
 #include "performance.h"
 
+/**
+ * Zeroing an aray
+ */
 void zero_array(float array[], int size)
 {
 	int i;
@@ -21,6 +24,9 @@ void zero_array(float array[], int size)
 		array[i] = 0;
 }
 
+/**
+ * Returns the number of files of a particular type in a particular folder
+ */
 int get_files_by_type(char * folder_name, char * file_type)
 {
 	DIR * folder;
@@ -51,6 +57,9 @@ int get_files_by_type(char * folder_name, char * file_type)
 	return files_found;
 }
 
+/**
+ * Returning the sum of an array
+ */
 float get_sum(float numbers[], int size)
 {
 	int i;
@@ -89,6 +98,9 @@ void histogram_difference(FILE * file_out, float histogram_prev[], float histogr
 	fprintf(file_out, "]) total : %f, intersection: %.4f\n", get_sum(histogram_prev, 256), intersection);
 }
 
+/**
+ * Writes a sector to the current carved JPEG file after validating the sector's probability distribution
+ */
 void histogram_statistics_write(float hist_sector[], float hist_jpeg[], BYTE cluster_buffer[], FILE * file_jpeg)
 {
 
@@ -105,27 +117,37 @@ void histogram_statistics_write(float hist_sector[], float hist_jpeg[], BYTE clu
 			intersection += hist_jpeg[j];
 	}
 
+	//This sector is not an entropy encoded sector therefore it should only be eliminated if start of scan is not encountered.
+	//This is because only JPEG sectors containing the zigzagged frequency coefficients are entropy encoded. The first sequence of JPEG
+	//sectors contain entirely the Huffman tables and the Quantization tables which are not entropy encode, but definitely need to be appended
+	//to the opened JPEG file, even if they are not entropy encoded sectors
 	if(intersection < ENTROPY_THRESHOLD)
 	{
-		//eliminating the possibility of setting a sector with restart marker to a non jpeg sector
-		if(last_marker != -1 && last_marker_sector != sector_index && marker_continuation != 1)
+		//a previously encountered marker and is not in the current sector, therefore it means that we are waiting for an entropy coded
+		//sector with a restart marker in the correct sequence
+		if(last_marker != -1 && last_marker_sector != sector_index)
 		{
 			printf("Sector %d is not a JPEG (%d) - last marker: %d!\n", sector_index, last_marker, last_marker_sector);
 			printf("Next sector needs to be a JPEG sector with a restart marker %d\n", last_marker + 1);
+
+			//setting the next marker to be found in the next entropy coded sector
 			next_marker = last_marker + 1;
+
+			//stopping writing to file
 			stop_write = 1;
 		}
-
-		if(marker_continuation == 1)
-			marker_continuation = -1;
 	}
 
+	//writing sector
 	if(stop_write == 0)
 	{
 		int offset;
+
+		//writing sector to the opened jpeg file
 		for(offset = write_start_offset; offset < write_end_offset; offset++)
 			fwrite(&cluster_buffer[offset], sizeof(BYTE), sizeof(BYTE), file_jpeg);
 
+		//file is to be closed
 		if(file_opened == 2)
 		{
 			write_end_offset = SECTOR_SIZE;
@@ -133,10 +155,14 @@ void histogram_statistics_write(float hist_sector[], float hist_jpeg[], BYTE clu
 			file_opened = 0;
 		}
 
+		//setting write offset to the beginning
 		write_start_offset = 0;
 	}
 }
 
+/**
+ * Performing Histogram Normalization
+ */
 void normalize_histogram(float histogram[], int hist_size)
 {
 	int i;
@@ -148,7 +174,7 @@ int validated_header_position(BYTE cluster_buffer[], int start_position)
 {
 	int i;
 
-	//no need to validate
+	//no need to validate header position
 	if(check_header == 0)
 		return 1;
 
@@ -193,9 +219,8 @@ int validate_jpeg(char * file_path, char * folder_actual)
 	DIR * fa;
 	struct dirent * dir;
 
+	//opening directory that holds the actual files to be recovered
 	fa = opendir(folder_actual);
-	FILE * jpegs_recovered = fopen("external/output/jpegs_recovered2.txt", "w");
-	FILE * jpegs_partially_recovered = fopen("external/output/jpegs_partially_recovered2.txt", "w");
 
 	if(fa)
 	{
@@ -208,6 +233,7 @@ int validate_jpeg(char * file_path, char * folder_actual)
 			{
 				char actual_file_path[50];
 				sprintf(actual_file_path, "%s%s%s", folder_actual, "\\", actual_file_name);
+
 				//trying to match JPEG
 				if(compare_two_binay_files(file_path, actual_file_path) == 1)
 				{
@@ -219,9 +245,6 @@ int validate_jpeg(char * file_path, char * folder_actual)
 		}
 
 		closedir(fa);
-		fclose(jpegs_recovered);
-		fclose(jpegs_partially_recovered);
-
 		fprintf(jpegs_partially_recovered, "- %s\n", file_path);
 		return found;
 	}

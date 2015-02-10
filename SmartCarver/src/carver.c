@@ -114,14 +114,16 @@ int handle_jpeg_footer(int byte_offset)
 	return byte_offset;
 }
 
+/**
+ * Handling JPEG restart marker found at a particular byte_offset from the cluster_buffer
+ */
 int handle_marker(BYTE cluster_buffer[], int byte_offset)
 {
-	//JPEG file marker is found
-	int changed = 0;
+	int restart_marker = 0;
 	int current_marker = last_marker;
 	BYTE next_byte [1];
-	//if 0xff is found in the last byte of the sector we need to check the next byte
 
+	//if 0xff is found in the last byte of the sector we need to check the next byte
 	if(byte_offset == (SECTOR_SIZE - 1))
 	{
 		int bytes_read = fread(next_byte, sizeof(unsigned char), 1, file_in);
@@ -138,71 +140,74 @@ int handle_marker(BYTE cluster_buffer[], int byte_offset)
 	{
 		case 0xd0:
 			current_marker = 0;
-			changed = 1;
+			restart_marker = 1;
 			break;
 
 		case 0xd1:
 			current_marker = 1;
-			changed = 1;
+			restart_marker = 1;
 			break;
 
 		case 0xd2:
 			current_marker = 2;
-			changed = 1;
+			restart_marker = 1;
 			break;
 
 		case 0xd3:
 			current_marker = 3;
-			changed = 1;
+			restart_marker = 1;
 			break;
 
 		case 0xd4:
 			current_marker = 4;
-			changed = 1;
+			restart_marker = 1;
 			break;
 
 		case 0xd5:
 			current_marker = 5;
-			changed = 1;
+			restart_marker = 1;
 			break;
 
 		case 0xd6:
 			current_marker = 6;
-			changed = 1;
+			restart_marker = 1;
 			break;
 
 		case 0xd7:
 			current_marker = 7;
-			changed = 1;
+			restart_marker = 1;
 			break;
 	}
 
-	if(changed)
+	if(restart_marker)
 	{
+		//found the next marker in sequence
 		if(current_marker == next_marker)
 		{
 			printf("This is the continuation sector\n");
+
+			//removing the flag in order to continue writing to the file
+			//and also dealloting the next marker to be found
 			stop_write = 0;
 			next_marker = -1;
 		}
 
+		//setting the sector at which the restart marker was founf
 		last_marker_sector = sector_index;
 	}
 
-	if((current_marker != -1) && changed && ((current_marker - last_marker != 1) && current_marker != 0))
-	{
-		//printf("offset %d) current_marker : %d - last_marker: %d\n", (sector_index * SECTOR_SIZE) + byte_offset, current_marker, last_marker);
-		//printf("Skipping this sector due to invalid marker..\n");
-		//write_sector = 0;
-	}
-	else
-	{
+	int invalid_marker = (current_marker != -1) && restart_marker && ((current_marker - last_marker != 1) && current_marker != 0);
+
+	//setting last valid marker found
+	if(!invalid_marker)
 		last_marker = current_marker;
-	}
 
 	return byte_offset;
 }
 
+/**
+ * Appending sector to a particular opened JPEG file
+ */
 void write_sector_to_file(BYTE cluster_buffer[], int bytes_read)
 {
 	//checking if writing sector to file is enabled
@@ -228,6 +233,7 @@ void write_sector_to_file(BYTE cluster_buffer[], int bytes_read)
 		}
 		else
 		{
+			//comparing cluster probability distribution with the standard jpeg probability distribution
 			histogram_difference(file_histograms, histogram_current_sector, histogram_jpeg_dist);
 		}
 
@@ -260,6 +266,8 @@ int finalize()
 	fclose(file_in);
 	fclose(file_out);
 	fclose(file_histograms);
+	fclose(jpegs_recovered);
+	fclose(jpegs_partially_recovered);
 
 	return EXIT_SUCCESS;
 }
@@ -268,6 +276,7 @@ int carve(char * file_name, char * output_folder, float entropy_threshold)
 {
 	output_folder_name = output_folder;
 	ENTROPY_THRESHOLD = entropy_threshold;
+
 	//setting timer
 	start_timer = clock();
 
@@ -276,7 +285,8 @@ int carve(char * file_name, char * output_folder, float entropy_threshold)
 
 	struct stat info;
 
-	BYTE cluster_buffer[SECTOR_SIZE];		// holds the sequence of bytes fore each cluster read
+	// holds the sequence of bytes fore each cluster read
+	BYTE cluster_buffer[SECTOR_SIZE];
 
 
 	//setting the ideal uniform distribution of JPEG histogram
@@ -299,6 +309,9 @@ int carve(char * file_name, char * output_folder, float entropy_threshold)
 	file_out = fopen("external/output/out.txt", "w");
 
 	file_histograms = fopen("external/output/histograms.txt", "w");
+
+	jpegs_recovered = fopen("external/output/jpegs_recovered2.txt", "w");
+	jpegs_partially_recovered = fopen("external/output/jpegs_partially_recovered2.txt", "w");
 
 	if(file_in == NULL)
 	{

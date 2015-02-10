@@ -20,6 +20,8 @@ extern int SECTOR_SIZE;
 extern FILE * jpeg_to_decode;
 extern FILE * file_out;
 extern FILE * file_histograms;
+extern FILE * jpegs_recovered;
+extern FILE * jpegs_partially_recovered;
 
 extern int file_opened;
 extern int jpeg_size;

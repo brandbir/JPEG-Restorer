@@ -19,7 +19,6 @@ int jpeg_actual						= 0;
 int last_marker						= -1;
 int next_marker						= -1;
 int last_marker_sector				= -1;
-int marker_continuation				= -1;
 int last_jpeg_footer				= -1;
 
 long last_jpeg_header_file_offset 	= -1;
@@ -32,7 +31,7 @@ int check_header					= 0;
 int write_start_offset				= 0;
 int write_end_offset				= 512;
 
-int sector_index					= -1;		// the current index of a particular cluster
+int sector_index					= -1;		// the current index of a particular sector
 int write_sector					= 1;
 int stop_write						= 0;
 
@@ -42,3 +41,6 @@ float ENTROPY_THRESHOLD				= 0.3;
 FILE * jpeg_to_decode				= NULL;
 FILE * file_histograms 				= NULL;
 FILE * file_out						= NULL;
+FILE * jpegs_recovered				= NULL;
+FILE * jpegs_partially_recovered	= NULL;
+
