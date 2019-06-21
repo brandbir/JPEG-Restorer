@@ -85,9 +85,9 @@ Part A - Folder Structure
             Important: The generated output for each test case was MANUALLY divided in invalid
             and valid folders which contain invalid and valid JPEG images respectively.
   ---------------------------------------------------------------------------------------------------------------------------------
-  2.3) test_sets
+  2.3) test_sets - URL: https://drive.google.com/open?id=0B51b8cbLqEBHNnRqOXp4QkY5dW8
        
-       This folder contains the test sets that were both used for the evaluation of the implemented
+       This folder can be downloaded directly from Google Drive. It contains the test sets that were both used for the evaluation of the implemented
        prototypic file carver and also for measuring the performance of other file carving tools (Adroit Photo Forensics
        and Scalpel). The latter was specifically intended for comparing the generated output by the proposed file carving tool
        with that obtained from the other file carving tools. 
