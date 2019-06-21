@@ -9,18 +9,16 @@ File carving tools carry out file recovery whenever the file-system meta-data is
 
 ### Part A: COMPILATION PROCESS
 
-*OPTIONAL - The files are pre-compiled and one can immediately run the prototypic file carver by following Part B*
-
 1. Download the ``test_set`` folder from: `https://drive.google.com/open?id=0B51b8cbLqEBHNnRqOXp4QkY5dW8`
-1. Locate SmartCarver/Carver/Debug
+1. Locate JPEG-Restorer/Debug
 
-2. Make sure that the following dependency open-source libraries are available on your machine
+2. Make sure that the following dependencies and open-source libraries are available on your machine
   - jpeg
   - glib-2.0
   - opencv
   - tsk3
 
-3. Execute the following command to compile the source files: make all -f makefile
+3. Execute the following command to compile the source files: `make all -f makefile`
 
 4. If all dendency paths are specified according to the makefile, the Carver executable should be generated
 ---
