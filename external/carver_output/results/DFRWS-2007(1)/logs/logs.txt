@@ -1,0 +1,1361 @@
+14579: Start of image 1
+Creating new file external/carver_output/results/DFRWS-2007/carve1.jpg
+14673: End Of Image 1
+
+40269: Start of image 2
+Creating new file external/carver_output/results/DFRWS-2007/carve2.jpg
+40457: End Of Image 2
+
+42006: Start of image 3
+Creating new file external/carver_output/results/DFRWS-2007/carve3.jpg
+42116: End Of Image 3
+
+45352: Start of image 4
+Creating new file external/carver_output/results/DFRWS-2007/carve4.jpg
+45393: End Of Image 4
+
+45540: Start of image 5
+Creating new file external/carver_output/results/DFRWS-2007/carve5.jpg
+45540: End Of Image 5
+
+48751: Start of image 6
+Creating new file external/carver_output/results/DFRWS-2007/carve6.jpg
+48793: End Of Image 6
+
+50451: Start of image 7
+Creating new file external/carver_output/results/DFRWS-2007/carve7.jpg
+50458: End Of Image 7
+
+50519: Start of image 8
+Creating new file external/carver_output/results/DFRWS-2007/carve8.jpg
+50520: End Of Image 8
+
+50820: Start of image 9
+Creating new file external/carver_output/results/DFRWS-2007/carve9.jpg
+50903: End Of Image 9
+
+57145: Start of image 10
+Creating new file external/carver_output/results/DFRWS-2007/carve10.jpg
+57149: Opening embed10-1.jpg..
+57154: Closing embed1.jpg.. (5 - 2603)
+57155: Opening embed10-2.jpg..
+59352: End Of Image 10
+
+69084: Start of image 11
+Creating new file external/carver_output/results/DFRWS-2007/carve11.jpg
+69455: End Of Image 11
+
+70034: Start of image 12
+Creating new file external/carver_output/results/DFRWS-2007/carve12.jpg
+70038: Opening embed12-3.jpg..
+70098: Closing embed3.jpg.. (60 - 30859)
+70098: Opening embed12-4.jpg..
+70116: Closing embed4.jpg.. (18 - 8860)
+70530: End Of Image 12
+
+74294: Start of image 13
+Creating new file external/carver_output/results/DFRWS-2007/carve13.jpg
+74295: End Of Image 13
+
+74295: Start of image 14
+Creating new file external/carver_output/results/DFRWS-2007/carve14.jpg
+74296: End Of Image 14
+
+74297: Start of image 15
+Creating new file external/carver_output/results/DFRWS-2007/carve15.jpg
+74298: End Of Image 15
+
+74298: Start of image 16
+Creating new file external/carver_output/results/DFRWS-2007/carve16.jpg
+74299: End Of Image 16
+
+74300: Start of image 17
+Creating new file external/carver_output/results/DFRWS-2007/carve17.jpg
+74301: End Of Image 17
+
+74301: Start of image 18
+Creating new file external/carver_output/results/DFRWS-2007/carve18.jpg
+74302: End Of Image 18
+
+74303: Start of image 19
+Creating new file external/carver_output/results/DFRWS-2007/carve19.jpg
+74304: End Of Image 19
+
+74304: Start of image 20
+Creating new file external/carver_output/results/DFRWS-2007/carve20.jpg
+74305: End Of Image 20
+
+74305: Start of image 21
+Creating new file external/carver_output/results/DFRWS-2007/carve21.jpg
+74306: End Of Image 21
+
+74307: Start of image 22
+Creating new file external/carver_output/results/DFRWS-2007/carve22.jpg
+74308: End Of Image 22
+
+74308: Start of image 23
+Creating new file external/carver_output/results/DFRWS-2007/carve23.jpg
+74309: End Of Image 23
+
+74310: Start of image 24
+Creating new file external/carver_output/results/DFRWS-2007/carve24.jpg
+74311: End Of Image 24
+
+74311: Start of image 25
+Creating new file external/carver_output/results/DFRWS-2007/carve25.jpg
+74312: End Of Image 25
+
+74312: Start of image 26
+Creating new file external/carver_output/results/DFRWS-2007/carve26.jpg
+74321: End Of Image 26
+
+74332: Start of image 27
+Creating new file external/carver_output/results/DFRWS-2007/carve27.jpg
+74361: End Of Image 27
+
+74362: Start of image 28
+Creating new file external/carver_output/results/DFRWS-2007/carve28.jpg
+74363: End Of Image 28
+
+74363: Start of image 29
+Creating new file external/carver_output/results/DFRWS-2007/carve29.jpg
+74364: End Of Image 29
+
+74366: Start of image 30
+Creating new file external/carver_output/results/DFRWS-2007/carve30.jpg
+74367: End Of Image 30
+
+74367: Start of image 31
+Creating new file external/carver_output/results/DFRWS-2007/carve31.jpg
+74368: End Of Image 31
+
+74369: Start of image 32
+Creating new file external/carver_output/results/DFRWS-2007/carve32.jpg
+74370: End Of Image 32
+
+74370: Start of image 33
+Creating new file external/carver_output/results/DFRWS-2007/carve33.jpg
+74372: End Of Image 33
+
+74372: Start of image 34
+Creating new file external/carver_output/results/DFRWS-2007/carve34.jpg
+74373: End Of Image 34
+
+74373: Start of image 35
+Creating new file external/carver_output/results/DFRWS-2007/carve35.jpg
+74375: End Of Image 35
+
+74382: Start of image 36
+Creating new file external/carver_output/results/DFRWS-2007/carve36.jpg
+74383: End Of Image 36
+
+This is a thumbnail header since a restart interval was found in this sector
+74384: Opening embed36-5.jpg..
+74385: Start of image 37
+Creating new file external/carver_output/results/DFRWS-2007/carve37.jpg
+74387: Closing embed5.jpg.. (3 - 1579)
+This is a thumbnail header since a restart interval was found in this sector
+74387: Opening embed37-6.jpg..
+74388: Closing embed6.jpg.. (1 - 617)
+This is a thumbnail header since a restart interval was found in this sector
+74389: Opening embed37-7.jpg..
+74390: Closing embed7.jpg.. (1 - 617)
+74393: Opening embed37-8.jpg..
+74394: Closing embed8.jpg.. (1 - 617)
+This is a thumbnail header since a restart interval was found in this sector
+74395: Opening embed37-9.jpg..
+74396: Closing embed9.jpg.. (1 - 617)
+This is a thumbnail header since a restart interval was found in this sector
+74397: Opening embed37-10.jpg..
+74398: Closing embed10.jpg.. (1 - 617)
+This is a thumbnail header since a restart interval was found in this sector
+74400: Opening embed37-11.jpg..
+74401: Closing embed11.jpg.. (1 - 617)
+74401: Opening embed37-12.jpg..
+74403: Closing embed12.jpg.. (2 - 617)
+74406: Opening embed37-13.jpg..
+74425: Closing embed13.jpg.. (19 - 9405)
+This is a thumbnail header since a restart interval was found in this sector
+74426: Opening embed37-14.jpg..
+74430: Closing embed14.jpg.. (4 - 2110)
+This is a thumbnail header since a restart interval was found in this sector
+74430: Opening embed37-15.jpg..
+74471: Closing embed15.jpg.. (41 - 21227)
+This is a thumbnail header since a restart interval was found in this sector
+74472: Opening embed37-16.jpg..
+74493: Closing embed16.jpg.. (21 - 10980)
+This is a thumbnail header since a restart interval was found in this sector
+74494: Opening embed37-17.jpg..
+74501: Closing embed17.jpg.. (7 - 3682)
+74510: End Of Image 37
+
+This is a thumbnail header since a restart interval was found in this sector
+74549: Opening embed37-18.jpg..
+This is a thumbnail header since a restart interval was found in this sector
+74578: Opening embed37-19.jpg..
+This is a thumbnail header since a restart interval was found in this sector
+74612: Opening embed37-20.jpg..
+74716: Start of image 38
+Creating new file external/carver_output/results/DFRWS-2007/carve38.jpg
+74728: Closing embed20.jpg.. (116 - 59461)
+This is a thumbnail header since a restart interval was found in this sector
+74728: Opening embed38-21.jpg..
+74740: Closing embed21.jpg.. (12 - 5877)
+[74835] : skipped since it is not JPEG
+[74836] : skipped since it is not JPEG
+[74837] : skipped since it is not JPEG
+[74838] : skipped since it is not JPEG
+[74839] : skipped since it is not JPEG
+[74840] : skipped since it is not JPEG
+[74843] : skipped since it is not JPEG
+[74844] : skipped since it is not JPEG
+[74845] : skipped since it is not JPEG
+74847: End Of Image 38
+
+[75043] : This the continuation sector after fragmentation point
+79925: Start of image 39
+Creating new file external/carver_output/results/DFRWS-2007/carve39.jpg
+[79931] : skipped since it is not JPEG
+[79932] : skipped since it is not JPEG
+[79933] : skipped since it is not JPEG
+[79934] : skipped since it is not JPEG
+[79942] : This the continuation sector after fragmentation point
+79954: End Of Image 39
+
+87340: Start of image 40
+Creating new file external/carver_output/results/DFRWS-2007/carve40.jpg
+87379: End Of Image 40
+
+87716: Start of image 41
+Creating new file external/carver_output/results/DFRWS-2007/carve41.jpg
+88048: End Of Image 41
+
+89029: Start of image 42
+Creating new file external/carver_output/results/DFRWS-2007/carve42.jpg
+89039: Opening embed42-22.jpg..
+89048: Closing embed22.jpg.. (9 - 4621)
+Closing previous opened file
+89049: Start of image 43
+Creating new file external/carver_output/results/DFRWS-2007/carve43.jpg
+Closing previous opened file
+90377: Start of image 44
+Creating new file external/carver_output/results/DFRWS-2007/carve44.jpg
+90379: Opening embed44-23.jpg..
+90396: Closing embed23.jpg.. (17 - 8681)
+93668: End Of Image 42
+
+93780: Start of image 45
+Creating new file external/carver_output/results/DFRWS-2007/carve45.jpg
+93790: Opening embed45-24.jpg..
+93800: Closing embed24.jpg.. (10 - 5626)
+93801: Opening embed45-25.jpg..
+100449: End Of Image 43
+
+102519: Start of image 46
+Creating new file external/carver_output/results/DFRWS-2007/carve46.jpg
+[102683] : skipped since it is not JPEG
+[102684] : skipped since it is not JPEG
+[102685] : skipped since it is not JPEG
+[102705] : skipped since it is not JPEG
+[102706] : skipped since it is not JPEG
+[102707] : skipped since it is not JPEG
+[102708] : skipped since it is not JPEG
+[102763] : This the continuation sector after fragmentation point
+102986: End Of Image 44
+
+120072: Start of image 47
+Creating new file external/carver_output/results/DFRWS-2007/carve47.jpg
+120084: End Of Image 45
+
+120084: Start of image 48
+Creating new file external/carver_output/results/DFRWS-2007/carve48.jpg
+120139: End Of Image 46
+
+126217: Start of image 49
+Creating new file external/carver_output/results/DFRWS-2007/carve49.jpg
+126361: End Of Image 47
+
+This is a valid header (non-thumbnail) since another ffd8 was encountered in the same sector
+127640: Start of image 50
+Creating new file external/carver_output/results/DFRWS-2007/carve50.jpg
+127677: End Of Image 48
+
+127895: Start of image 51
+Creating new file external/carver_output/results/DFRWS-2007/carve51.jpg
+127897: End Of Image 49
+
+131792: Start of image 52
+Creating new file external/carver_output/results/DFRWS-2007/carve52.jpg
+131794: End Of Image 50
+
+132654: Start of image 53
+Creating new file external/carver_output/results/DFRWS-2007/carve53.jpg
+132655: End Of Image 51
+
+133827: Start of image 54
+Creating new file external/carver_output/results/DFRWS-2007/carve54.jpg
+133832: End Of Image 52
+
+137780: Start of image 55
+Creating new file external/carver_output/results/DFRWS-2007/carve55.jpg
+137795: End Of Image 53
+
+149976: Start of image 56
+Creating new file external/carver_output/results/DFRWS-2007/carve56.jpg
+150021: End Of Image 54
+
+151186: Start of image 57
+Creating new file external/carver_output/results/DFRWS-2007/carve57.jpg
+151246: End Of Image 55
+
+172607: Start of image 58
+Creating new file external/carver_output/results/DFRWS-2007/carve58.jpg
+172673: End Of Image 56
+
+172773: Start of image 59
+Creating new file external/carver_output/results/DFRWS-2007/carve59.jpg
+172819: End Of Image 57
+
+173582: Start of image 60
+Creating new file external/carver_output/results/DFRWS-2007/carve60.jpg
+173584: End Of Image 58
+
+200568: Opening embed60-26.jpg..
+201683: Start of image 61
+Creating new file external/carver_output/results/DFRWS-2007/carve61.jpg
+201797: Closing embed26.jpg.. (1229 - 629248)
+202055: End Of Image 59
+
+233350: Start of image 62
+Creating new file external/carver_output/results/DFRWS-2007/carve62.jpg
+233656: End Of Image 60
+
+236820: Start of image 63
+Creating new file external/carver_output/results/DFRWS-2007/carve63.jpg
+236898: End Of Image 61
+
+238946: Start of image 64
+Creating new file external/carver_output/results/DFRWS-2007/carve64.jpg
+239016: End Of Image 62
+
+244667: Start of image 65
+Creating new file external/carver_output/results/DFRWS-2007/carve65.jpg
+244685: End Of Image 63
+
+245576: Start of image 66
+Creating new file external/carver_output/results/DFRWS-2007/carve66.jpg
+245733: End Of Image 64
+
+247045: Start of image 67
+Creating new file external/carver_output/results/DFRWS-2007/carve67.jpg
+247240: End Of Image 65
+
+248825: Start of image 68
+Creating new file external/carver_output/results/DFRWS-2007/carve68.jpg
+248934: End Of Image 66
+
+254789: Start of image 69
+Creating new file external/carver_output/results/DFRWS-2007/carve69.jpg
+255658: End Of Image 67
+
+259888: Start of image 70
+Creating new file external/carver_output/results/DFRWS-2007/carve70.jpg
+260063: End Of Image 68
+
+260534: Start of image 71
+Creating new file external/carver_output/results/DFRWS-2007/carve71.jpg
+260548: End Of Image 69
+
+272320: Start of image 72
+Creating new file external/carver_output/results/DFRWS-2007/carve72.jpg
+272384: End Of Image 70
+
+273347: Start of image 73
+Creating new file external/carver_output/results/DFRWS-2007/carve73.jpg
+273364: End Of Image 71
+
+This is a thumbnail header since the first restart marker was found in this sector
+279160: Opening embed73-27.jpg..
+280554: Start of image 74
+Creating new file external/carver_output/results/DFRWS-2007/carve74.jpg
+280556: End Of Image 72
+
+284354: Start of image 75
+Creating new file external/carver_output/results/DFRWS-2007/carve75.jpg
+284361: End Of Image 73
+
+This is a thumbnail header since a restart interval was found in this sector
+287352: Opening embed75-28.jpg..
+This is a thumbnail header since a restart interval was found in this sector
+287482: Opening embed75-29.jpg..
+This is a thumbnail header since a restart interval was found in this sector
+287528: Opening embed75-30.jpg..
+This is a thumbnail header since a restart interval was found in this sector
+287548: Opening embed75-31.jpg..
+This is a thumbnail header since a restart interval was found in this sector
+287569: Opening embed75-32.jpg..
+This is a thumbnail header since a restart interval was found in this sector
+287581: Opening embed75-33.jpg..
+287585: Start of image 76
+Creating new file external/carver_output/results/DFRWS-2007/carve76.jpg
+287587: Closing embed33.jpg.. (6 - 3036)
+287594: Opening embed76-34.jpg..
+287601: Closing embed34.jpg.. (7 - 3605)
+This is a thumbnail header since a restart interval was found in this sector
+287602: Opening embed76-35.jpg..
+287622: Closing embed35.jpg.. (20 - 10340)
+This is a thumbnail header since a restart interval was found in this sector
+287627: Opening embed76-36.jpg..
+287654: Closing embed36.jpg.. (27 - 13831)
+287654: Opening embed76-37.jpg..
+287676: Closing embed37.jpg.. (22 - 10942)
+This is a thumbnail header since a restart interval was found in this sector
+287685: Opening embed76-38.jpg..
+287691: Closing embed38.jpg.. (6 - 3249)
+287712: Opening embed76-39.jpg..
+287772: Closing embed39.jpg.. (60 - 30372)
+This is a thumbnail header since a restart interval was found in this sector
+287778: Opening embed76-40.jpg..
+287827: Closing embed40.jpg.. (49 - 25116)
+287827: Opening embed76-41.jpg..
+287840: Closing embed41.jpg.. (13 - 6199)
+This is a thumbnail header since a restart interval was found in this sector
+287840: Opening embed76-42.jpg..
+287855: Closing embed42.jpg.. (15 - 7543)
+This is a thumbnail header since a restart interval was found in this sector
+287855: Opening embed76-43.jpg..
+287872: Closing embed43.jpg.. (17 - 8653)
+This is a thumbnail header since a restart interval was found in this sector
+287878: Opening embed76-44.jpg..
+287956: Closing embed44.jpg.. (78 - 40275)
+This is a thumbnail header since a restart interval was found in this sector
+287957: Opening embed76-45.jpg..
+287966: Closing embed45.jpg.. (9 - 4989)
+This is a thumbnail header since a restart interval was found in this sector
+287967: Opening embed76-46.jpg..
+287980: Closing embed46.jpg.. (13 - 6629)
+This is a thumbnail header since a restart interval was found in this sector
+287980: Opening embed76-47.jpg..
+287993: Closing embed47.jpg.. (13 - 6805)
+This is a thumbnail header since a restart interval was found in this sector
+287998: Opening embed76-48.jpg..
+288035: Closing embed48.jpg.. (37 - 18916)
+288035: Opening embed76-49.jpg..
+288049: Closing embed49.jpg.. (14 - 6949)
+This is a thumbnail header since a restart interval was found in this sector
+288049: Opening embed76-50.jpg..
+288079: Closing embed50.jpg.. (30 - 15556)
+This is a thumbnail header since a restart interval was found in this sector
+288080: Opening embed76-51.jpg..
+288111: Closing embed51.jpg.. (31 - 16215)
+This is a thumbnail header since a restart interval was found in this sector
+288118: Opening embed76-52.jpg..
+288155: Closing embed52.jpg.. (37 - 19021)
+288155: Opening embed76-53.jpg..
+288164: Closing embed53.jpg.. (9 - 4681)
+This is a thumbnail header since a restart interval was found in this sector
+288165: Opening embed76-54.jpg..
+288196: Closing embed54.jpg.. (31 - 16281)
+This is a thumbnail header since a restart interval was found in this sector
+288202: Opening embed76-55.jpg..
+288290: Closing embed55.jpg.. (88 - 45064)
+This is a thumbnail header since a restart interval was found in this sector
+288297: Opening embed76-56.jpg..
+288324: Closing embed56.jpg.. (27 - 14075)
+This is a thumbnail header since a restart interval was found in this sector
+288325: Opening embed76-57.jpg..
+288349: Closing embed57.jpg.. (24 - 12525)
+288349: Opening embed76-58.jpg..
+288368: Closing embed58.jpg.. (19 - 9611)
+This is a thumbnail header since a restart interval was found in this sector
+288369: Opening embed76-59.jpg..
+288381: Closing embed59.jpg.. (12 - 6616)
+This is a thumbnail header since a restart interval was found in this sector
+288387: Opening embed76-60.jpg..
+288446: Closing embed60.jpg.. (59 - 30387)
+288446: Opening embed76-61.jpg..
+288457: Closing embed61.jpg.. (11 - 5388)
+288457: Opening embed76-62.jpg..
+288479: Closing embed62.jpg.. (22 - 11162)
+This is a thumbnail header since a restart interval was found in this sector
+288485: Opening embed76-63.jpg..
+288513: Closing embed63.jpg.. (28 - 14742)
+This is a thumbnail header since a restart interval was found in this sector
+288514: Opening embed76-64.jpg..
+288540: Closing embed64.jpg.. (26 - 13221)
+This is a thumbnail header since a restart interval was found in this sector
+288540: Opening embed76-65.jpg..
+288574: Closing embed65.jpg.. (34 - 17286)
+288580: Opening embed76-66.jpg..
+288663: Closing embed66.jpg.. (83 - 42295)
+This is a thumbnail header since a restart interval was found in this sector
+288663: Opening embed76-67.jpg..
+288680: Closing embed67.jpg.. (17 - 8468)
+288687: Opening embed76-68.jpg..
+288715: Closing embed68.jpg.. (28 - 13967)
+This is a thumbnail header since a restart interval was found in this sector
+288715: Opening embed76-69.jpg..
+288752: Closing embed69.jpg.. (37 - 19089)
+This is a thumbnail header since a restart interval was found in this sector
+288758: Opening embed76-70.jpg..
+288801: Closing embed70.jpg.. (43 - 22347)
+288809: Opening embed76-71.jpg..
+288840: Closing embed71.jpg.. (31 - 15726)
+288840: Opening embed76-72.jpg..
+288854: Closing embed72.jpg.. (14 - 7028)
+This is a thumbnail header since a restart interval was found in this sector
+288865: Opening embed76-73.jpg..
+288887: Closing embed73.jpg.. (22 - 11479)
+This is a thumbnail header since a restart interval was found in this sector
+288892: Opening embed76-74.jpg..
+288905: Closing embed74.jpg.. (13 - 7093)
+This is a thumbnail header since a restart interval was found in this sector
+288906: Opening embed76-75.jpg..
+288966: Closing embed75.jpg.. (60 - 30637)
+288975: End Of Image 74
+
+This is a thumbnail header since a restart interval was found in this sector
+288995: Opening embed76-76.jpg..
+This is a thumbnail header since a restart interval was found in this sector
+289044: Opening embed76-77.jpg..
+289079: Start of image 77
+Creating new file external/carver_output/results/DFRWS-2007/carve77.jpg
+289098: Closing embed77.jpg.. (54 - 27605)
+This is a thumbnail header since a restart interval was found in this sector
+289098: Opening embed77-78.jpg..
+289112: Closing embed78.jpg.. (14 - 7157)
+This is a thumbnail header since a restart interval was found in this sector
+289119: Opening embed77-79.jpg..
+289145: Closing embed79.jpg.. (26 - 13455)
+This is a thumbnail header since a restart interval was found in this sector
+289146: Opening embed77-80.jpg..
+289167: Closing embed80.jpg.. (21 - 11032)
+289200: Opening embed77-81.jpg..
+289228: Closing embed81.jpg.. (28 - 14205)
+289235: Opening embed77-82.jpg..
+289284: Closing embed82.jpg.. (49 - 24759)
+This is a thumbnail header since a restart interval was found in this sector
+289284: Opening embed77-83.jpg..
+289296: Closing embed83.jpg.. (12 - 6339)
+This is a thumbnail header since a restart interval was found in this sector
+289305: Opening embed77-84.jpg..
+289316: Closing embed84.jpg.. (11 - 5720)
+This is a thumbnail header since a restart interval was found in this sector
+289316: Opening embed77-85.jpg..
+289332: Closing embed85.jpg.. (16 - 8362)
+This is a thumbnail header since a restart interval was found in this sector
+289340: Opening embed77-86.jpg..
+289344: Closing embed86.jpg.. (4 - 2145)
+This is a thumbnail header since a restart interval was found in this sector
+289345: Opening embed77-87.jpg..
+289349: Closing embed87.jpg.. (4 - 2074)
+This is a thumbnail header since a restart interval was found in this sector
+289349: Opening embed77-88.jpg..
+289353: Closing embed88.jpg.. (4 - 2184)
+This is a thumbnail header since a restart interval was found in this sector
+289354: Opening embed77-89.jpg..
+289359: Closing embed89.jpg.. (5 - 2522)
+This is a thumbnail header since a restart interval was found in this sector
+289359: Opening embed77-90.jpg..
+289363: Closing embed90.jpg.. (4 - 2269)
+289372: Opening embed77-91.jpg..
+289377: Closing embed91.jpg.. (5 - 2345)
+289377: Opening embed77-92.jpg..
+289382: Closing embed92.jpg.. (5 - 2326)
+This is a thumbnail header since a restart interval was found in this sector
+289382: Opening embed77-93.jpg..
+289387: Closing embed93.jpg.. (5 - 2623)
+This is a thumbnail header since a restart interval was found in this sector
+289396: Opening embed77-94.jpg..
+289400: Closing embed94.jpg.. (4 - 2227)
+289400: Opening embed77-95.jpg..
+289405: Closing embed95.jpg.. (5 - 2229)
+This is a thumbnail header since a restart interval was found in this sector
+289405: Opening embed77-96.jpg..
+289409: Closing embed96.jpg.. (4 - 2152)
+289409: Opening embed77-97.jpg..
+289414: Closing embed97.jpg.. (5 - 2230)
+This is a thumbnail header since a restart interval was found in this sector
+289422: Opening embed77-98.jpg..
+289426: Closing embed98.jpg.. (4 - 2304)
+This is a thumbnail header since a restart interval was found in this sector
+289428: Opening embed77-99.jpg..
+289589: Closing embed99.jpg.. (161 - 82707)
+[289613] : skipped since it is not JPEG
+[289614] : skipped since it is not JPEG
+[289615] : skipped since it is not JPEG
+[289616] : skipped since it is not JPEG
+[289617] : skipped since it is not JPEG
+[289618] : skipped since it is not JPEG
+[289619] : skipped since it is not JPEG
+[289620] : skipped since it is not JPEG
+[289623] : skipped since it is not JPEG
+[289624] : skipped since it is not JPEG
+[289625] : skipped since it is not JPEG
+[289631] : skipped since it is not JPEG
+[289632] : skipped since it is not JPEG
+[289633] : skipped since it is not JPEG
+[289634] : skipped since it is not JPEG
+[289766] : This the continuation sector after fragmentation point
+[289776] : skipped since it is not JPEG
+[289777] : skipped since it is not JPEG
+[289778] : skipped since it is not JPEG
+[289781] : skipped since it is not JPEG
+[289782] : skipped since it is not JPEG
+[289783] : skipped since it is not JPEG
+[289785] : skipped since it is not JPEG
+[289786] : skipped since it is not JPEG
+[289788] : skipped since it is not JPEG
+[289789] : skipped since it is not JPEG
+[289790] : skipped since it is not JPEG
+[289791] : skipped since it is not JPEG
+[289793] : skipped since it is not JPEG
+289822: End Of Image 75
+
+Closing previous opened file
+289837: Start of image 78
+Creating new file external/carver_output/results/DFRWS-2007/carve78.jpg
+[289905] : This the continuation sector after fragmentation point
+[290470] : skipped since it is not JPEG
+[290471] : skipped since it is not JPEG
+[290472] : skipped since it is not JPEG
+[290473] : skipped since it is not JPEG
+[290474] : skipped since it is not JPEG
+[290475] : skipped since it is not JPEG
+[290476] : skipped since it is not JPEG
+[290477] : skipped since it is not JPEG
+[290479] : skipped since it is not JPEG
+[290480] : skipped since it is not JPEG
+[290481] : skipped since it is not JPEG
+[290482] : skipped since it is not JPEG
+[290483] : skipped since it is not JPEG
+[290484] : skipped since it is not JPEG
+[290485] : skipped since it is not JPEG
+[290486] : skipped since it is not JPEG
+[290487] : skipped since it is not JPEG
+[290489] : skipped since it is not JPEG
+[290490] : skipped since it is not JPEG
+[290491] : skipped since it is not JPEG
+[290492] : skipped since it is not JPEG
+[290493] : skipped since it is not JPEG
+[290495] : skipped since it is not JPEG
+[290496] : skipped since it is not JPEG
+[290497] : skipped since it is not JPEG
+[290498] : skipped since it is not JPEG
+[290499] : skipped since it is not JPEG
+[290500] : skipped since it is not JPEG
+[290501] : skipped since it is not JPEG
+[290502] : skipped since it is not JPEG
+[290503] : skipped since it is not JPEG
+[290504] : skipped since it is not JPEG
+[290505] : skipped since it is not JPEG
+[290506] : skipped since it is not JPEG
+[290507] : skipped since it is not JPEG
+[290508] : skipped since it is not JPEG
+[290509] : skipped since it is not JPEG
+[290510] : skipped since it is not JPEG
+[290511] : skipped since it is not JPEG
+[290512] : skipped since it is not JPEG
+[290513] : skipped since it is not JPEG
+[290521] : skipped since it is not JPEG
+[290522] : skipped since it is not JPEG
+[290523] : skipped since it is not JPEG
+[290527] : skipped since it is not JPEG
+[290528] : skipped since it is not JPEG
+[290529] : skipped since it is not JPEG
+[290530] : skipped since it is not JPEG
+[290531] : skipped since it is not JPEG
+[290532] : skipped since it is not JPEG
+[290533] : skipped since it is not JPEG
+[290534] : skipped since it is not JPEG
+[290535] : skipped since it is not JPEG
+[290542] : skipped since it is not JPEG
+[290543] : skipped since it is not JPEG
+[290548] : skipped since it is not JPEG
+[290549] : skipped since it is not JPEG
+[290550] : skipped since it is not JPEG
+[290551] : skipped since it is not JPEG
+[290552] : skipped since it is not JPEG
+[290553] : skipped since it is not JPEG
+[290554] : skipped since it is not JPEG
+[290555] : skipped since it is not JPEG
+[290556] : skipped since it is not JPEG
+[290557] : skipped since it is not JPEG
+[290558] : skipped since it is not JPEG
+[290559] : skipped since it is not JPEG
+[290560] : skipped since it is not JPEG
+[290562] : skipped since it is not JPEG
+[290563] : skipped since it is not JPEG
+[290564] : skipped since it is not JPEG
+[290565] : skipped since it is not JPEG
+290579: End Of Image 76
+
+[290794] : This the continuation sector after fragmentation point
+291671: Start of image 79
+Creating new file external/carver_output/results/DFRWS-2007/carve79.jpg
+291882: End Of Image 77
+
+305087: Start of image 80
+Creating new file external/carver_output/results/DFRWS-2007/carve80.jpg
+305152: End Of Image 78
+
+308545: Start of image 81
+Creating new file external/carver_output/results/DFRWS-2007/carve81.jpg
+308590: End Of Image 79
+
+314833: Start of image 82
+Creating new file external/carver_output/results/DFRWS-2007/carve82.jpg
+314871: End Of Image 80
+
+316034: Start of image 83
+Creating new file external/carver_output/results/DFRWS-2007/carve83.jpg
+316154: End Of Image 81
+
+335096: Start of image 84
+Creating new file external/carver_output/results/DFRWS-2007/carve84.jpg
+335097: Opening embed84-100.jpg..
+335110: Closing embed100.jpg.. (13 - 6652)
+335909: End Of Image 82
+
+336372: Start of image 85
+Creating new file external/carver_output/results/DFRWS-2007/carve85.jpg
+336377: Opening embed85-101.jpg..
+336432: Closing embed101.jpg.. (55 - 28465)
+336433: Opening embed85-102.jpg..
+336450: Closing embed102.jpg.. (17 - 8825)
+Closing previous opened file
+341683: Start of image 86
+Creating new file external/carver_output/results/DFRWS-2007/carve86.jpg
+Closing previous opened file
+341698: Start of image 87
+Creating new file external/carver_output/results/DFRWS-2007/carve87.jpg
+Closing previous opened file
+341708: Start of image 88
+Creating new file external/carver_output/results/DFRWS-2007/carve88.jpg
+341715: End Of Image 83
+
+341716: Start of image 89
+Creating new file external/carver_output/results/DFRWS-2007/carve89.jpg
+343551: End Of Image 84
+
+343552: Start of image 90
+Creating new file external/carver_output/results/DFRWS-2007/carve90.jpg
+344213: End Of Image 85
+
+346031: Start of image 91
+Creating new file external/carver_output/results/DFRWS-2007/carve91.jpg
+346270: End Of Image 86
+
+350010: Start of image 92
+Creating new file external/carver_output/results/DFRWS-2007/carve92.jpg
+350024: Opening embed92-103.jpg..
+350036: Closing embed103.jpg.. (12 - 6399)
+350040: Opening embed92-104.jpg..
+350628: Closing embed104.jpg.. (588 - 300778)
+350713: End Of Image 87
+
+353981: Start of image 93
+Creating new file external/carver_output/results/DFRWS-2007/carve93.jpg
+354190: End Of Image 88
+
+This is a thumbnail header since a restart interval was found in this sector
+356069: Opening embed93-105.jpg..
+356136: Start of image 94
+Creating new file external/carver_output/results/DFRWS-2007/carve94.jpg
+356155: Closing embed105.jpg.. (86 - 44248)
+This is a thumbnail header since a restart interval was found in this sector
+356185: Opening embed94-106.jpg..
+356277: Closing embed106.jpg.. (92 - 47095)
+356589: Opening embed94-107.jpg..
+[356703] : skipped since it is not JPEG
+356708: Opening embed94-108.jpg..
+356913: Closing embed108.jpg.. (205 - 105075)
+356956: Opening embed94-109.jpg..
+357102: Closing embed109.jpg.. (146 - 74737)
+357102: Opening embed94-110.jpg..
+357307: Closing embed110.jpg.. (205 - 105075)
+This is a thumbnail header since a restart interval was found in this sector
+357358: Opening embed94-111.jpg..
+[357523] : skipped since it is not JPEG
+[357526] : skipped since it is not JPEG
+[357527] : skipped since it is not JPEG
+[357528] : skipped since it is not JPEG
+[357529] : skipped since it is not JPEG
+[357530] : skipped since it is not JPEG
+[357531] : skipped since it is not JPEG
+357613: Closing embed111.jpg.. (255 - 130447)
+357676: End Of Image 89
+
+[357729] : This the continuation sector after fragmentation point
+362805: Start of image 95
+Creating new file external/carver_output/results/DFRWS-2007/carve95.jpg
+362881: End Of Image 90
+
+This is a thumbnail header since a restart interval was found in this sector
+364337: Opening embed95-112.jpg..
+380696: Start of image 96
+Creating new file external/carver_output/results/DFRWS-2007/carve96.jpg
+380716: End Of Image 91
+
+402327: Start of image 97
+Creating new file external/carver_output/results/DFRWS-2007/carve97.jpg
+402327: End Of Image 92
+
+404172: Start of image 98
+Creating new file external/carver_output/results/DFRWS-2007/carve98.jpg
+404176: End Of Image 93
+
+405497: Start of image 99
+Creating new file external/carver_output/results/DFRWS-2007/carve99.jpg
+405502: End Of Image 94
+
+409580: Start of image 100
+Creating new file external/carver_output/results/DFRWS-2007/carve100.jpg
+409644: End Of Image 95
+
+410209: Start of image 101
+Creating new file external/carver_output/results/DFRWS-2007/carve101.jpg
+410232: End Of Image 96
+
+411193: Start of image 102
+Creating new file external/carver_output/results/DFRWS-2007/carve102.jpg
+411196: End Of Image 97
+
+416371: Start of image 103
+Creating new file external/carver_output/results/DFRWS-2007/carve103.jpg
+416481: End Of Image 98
+
+444785: Start of image 104
+Creating new file external/carver_output/results/DFRWS-2007/carve104.jpg
+444794: Opening embed104-113.jpg..
+444806: Closing embed113.jpg.. (12 - 6466)
+444814: Opening embed104-114.jpg..
+444849: Closing embed114.jpg.. (35 - 18255)
+444851: End Of Image 99
+
+446112: Start of image 105
+Creating new file external/carver_output/results/DFRWS-2007/carve105.jpg
+446444: End Of Image 100
+
+451767: Start of image 106
+Creating new file external/carver_output/results/DFRWS-2007/carve106.jpg
+451936: End Of Image 101
+
+455969: Start of image 107
+Creating new file external/carver_output/results/DFRWS-2007/carve107.jpg
+455982: End Of Image 102
+
+461633: Start of image 108
+Creating new file external/carver_output/results/DFRWS-2007/carve108.jpg
+461660: End Of Image 103
+
+This is a valid header (non-thumbnail) since another ffd8 was encountered in the same sector
+461785: Start of image 109
+Creating new file external/carver_output/results/DFRWS-2007/carve109.jpg
+461823: End Of Image 104
+
+462970: Start of image 110
+Creating new file external/carver_output/results/DFRWS-2007/carve110.jpg
+463002: End Of Image 105
+
+463567: Start of image 111
+Creating new file external/carver_output/results/DFRWS-2007/carve111.jpg
+463626: End Of Image 106
+
+484618: Start of image 112
+Creating new file external/carver_output/results/DFRWS-2007/carve112.jpg
+484649: End Of Image 107
+
+488131: Start of image 113
+Creating new file external/carver_output/results/DFRWS-2007/carve113.jpg
+488151: End Of Image 108
+
+490599: Start of image 114
+Creating new file external/carver_output/results/DFRWS-2007/carve114.jpg
+490651: End Of Image 109
+
+This is a thumbnail header since the first restart marker was found in this sector
+509420: Opening embed114-115.jpg..
+512291: Start of image 115
+Creating new file external/carver_output/results/DFRWS-2007/carve115.jpg
+512328: End Of Image 110
+
+516004: Start of image 116
+Creating new file external/carver_output/results/DFRWS-2007/carve116.jpg
+516008: End Of Image 111
+
+517850: Start of image 117
+Creating new file external/carver_output/results/DFRWS-2007/carve117.jpg
+517862: End Of Image 112
+
+518018: Start of image 118
+Creating new file external/carver_output/results/DFRWS-2007/carve118.jpg
+518021: End Of Image 113
+
+519161: Start of image 119
+Creating new file external/carver_output/results/DFRWS-2007/carve119.jpg
+[519266] : skipped since it is not JPEG
+519278: End Of Image 114
+
+[519300] : skipped since it is not JPEG
+[519301] : skipped since it is not JPEG
+[519302] : skipped since it is not JPEG
+[519303] : skipped since it is not JPEG
+[519304] : skipped since it is not JPEG
+[519305] : skipped since it is not JPEG
+[519306] : skipped since it is not JPEG
+[519308] : skipped since it is not JPEG
+[519309] : skipped since it is not JPEG
+[519310] : skipped since it is not JPEG
+[519311] : skipped since it is not JPEG
+[519312] : skipped since it is not JPEG
+[519313] : skipped since it is not JPEG
+[519314] : skipped since it is not JPEG
+[519315] : skipped since it is not JPEG
+Closing previous opened file
+520400: Start of image 120
+Creating new file external/carver_output/results/DFRWS-2007/carve120.jpg
+[520403] : skipped since it is not JPEG
+[520404] : skipped since it is not JPEG
+[520405] : skipped since it is not JPEG
+[520406] : skipped since it is not JPEG
+[520407] : skipped since it is not JPEG
+[520408] : skipped since it is not JPEG
+[520409] : skipped since it is not JPEG
+520410: Opening embed120-116.jpg..
+520415: Closing embed116.jpg.. (5 - 3042)
+520416: Opening embed120-117.jpg..
+[524113] : This the continuation sector after fragmentation point
+524265: End Of Image 115
+
+540658: Start of image 121
+Creating new file external/carver_output/results/DFRWS-2007/carve121.jpg
+540710: End Of Image 116
+
+586832: Start of image 122
+Creating new file external/carver_output/results/DFRWS-2007/carve122.jpg
+586849: End Of Image 117
+
+586849: Start of image 123
+Creating new file external/carver_output/results/DFRWS-2007/carve123.jpg
+586864: End Of Image 118
+
+586865: Start of image 124
+Creating new file external/carver_output/results/DFRWS-2007/carve124.jpg
+586876: End Of Image 119
+
+586876: Start of image 125
+Creating new file external/carver_output/results/DFRWS-2007/carve125.jpg
+586896: End Of Image 120
+
+586896: Start of image 126
+Creating new file external/carver_output/results/DFRWS-2007/carve126.jpg
+587531: End Of Image 121
+
+587532: Start of image 127
+Creating new file external/carver_output/results/DFRWS-2007/carve127.jpg
+587702: End Of Image 122
+
+591263: Start of image 128
+Creating new file external/carver_output/results/DFRWS-2007/carve128.jpg
+591345: End Of Image 123
+
+591348: Start of image 129
+Creating new file external/carver_output/results/DFRWS-2007/carve129.jpg
+591402: End Of Image 124
+
+591405: Start of image 130
+Creating new file external/carver_output/results/DFRWS-2007/carve130.jpg
+591720: End Of Image 125
+
+591723: Start of image 131
+Creating new file external/carver_output/results/DFRWS-2007/carve131.jpg
+591860: End Of Image 126
+
+591867: Start of image 132
+Creating new file external/carver_output/results/DFRWS-2007/carve132.jpg
+592026: End Of Image 127
+
+592032: Start of image 133
+Creating new file external/carver_output/results/DFRWS-2007/carve133.jpg
+592157: End Of Image 128
+
+592159: Start of image 134
+Creating new file external/carver_output/results/DFRWS-2007/carve134.jpg
+592327: End Of Image 129
+
+592330: Start of image 135
+Creating new file external/carver_output/results/DFRWS-2007/carve135.jpg
+592413: End Of Image 130
+
+592413: Start of image 136
+Creating new file external/carver_output/results/DFRWS-2007/carve136.jpg
+592517: End Of Image 131
+
+592521: Start of image 137
+Creating new file external/carver_output/results/DFRWS-2007/carve137.jpg
+592651: End Of Image 132
+
+592679: Start of image 138
+Creating new file external/carver_output/results/DFRWS-2007/carve138.jpg
+592756: End Of Image 133
+
+592756: Start of image 139
+Creating new file external/carver_output/results/DFRWS-2007/carve139.jpg
+592814: End Of Image 134
+
+592817: Start of image 140
+Creating new file external/carver_output/results/DFRWS-2007/carve140.jpg
+592863: End Of Image 135
+
+592866: Start of image 141
+Creating new file external/carver_output/results/DFRWS-2007/carve141.jpg
+592982: End Of Image 136
+
+592982: Start of image 142
+Creating new file external/carver_output/results/DFRWS-2007/carve142.jpg
+593029: End Of Image 137
+
+593032: Start of image 143
+Creating new file external/carver_output/results/DFRWS-2007/carve143.jpg
+593075: End Of Image 138
+
+594630: Start of image 144
+Creating new file external/carver_output/results/DFRWS-2007/carve144.jpg
+594632: End Of Image 139
+
+594633: Start of image 145
+Creating new file external/carver_output/results/DFRWS-2007/carve145.jpg
+594635: End Of Image 140
+
+594699: Start of image 146
+Creating new file external/carver_output/results/DFRWS-2007/carve146.jpg
+594701: End Of Image 141
+
+594791: Start of image 147
+Creating new file external/carver_output/results/DFRWS-2007/carve147.jpg
+594794: End Of Image 142
+
+595056: Start of image 148
+Creating new file external/carver_output/results/DFRWS-2007/carve148.jpg
+595086: End Of Image 143
+
+648613: Start of image 149
+Creating new file external/carver_output/results/DFRWS-2007/carve149.jpg
+648622: Opening embed149-118.jpg..
+648634: Closing embed118.jpg.. (12 - 6169)
+648908: End Of Image 144
+
+649204: Start of image 150
+Creating new file external/carver_output/results/DFRWS-2007/carve150.jpg
+649208: Opening embed150-119.jpg..
+649214: Closing embed119.jpg.. (6 - 3545)
+649215: Opening embed150-120.jpg..
+650994: End Of Image 145
+
+653346: Start of image 151
+Creating new file external/carver_output/results/DFRWS-2007/carve151.jpg
+653468: End Of Image 146
+
+653725: Start of image 152
+Creating new file external/carver_output/results/DFRWS-2007/carve152.jpg
+653771: End Of Image 147
+
+654790: Start of image 153
+Creating new file external/carver_output/results/DFRWS-2007/carve153.jpg
+654936: End Of Image 148
+
+656325: Start of image 154
+Creating new file external/carver_output/results/DFRWS-2007/carve154.jpg
+656629: End Of Image 149
+
+
+Finding embedded JPEG images
+external/carver_output/results/DFRWS-2007/embed76-55.jpg was recovered successfuly
+external/carver_output/results/DFRWS-2007/embed37-12.jpg is corrupted
+external/carver_output/results/DFRWS-2007/embed76-48.jpg was recovered successfuly
+external/carver_output/results/DFRWS-2007/embed37-10.jpg was recovered successfuly
+external/carver_output/results/DFRWS-2007/embed37-13.jpg was recovered successfuly
+external/carver_output/results/DFRWS-2007/embed94-106.jpg was recovered successfuly
+external/carver_output/results/DFRWS-2007/embed37-7.jpg was recovered successfuly
+external/carver_output/results/DFRWS-2007/embed120-117.jpg is corrupted
+external/carver_output/results/DFRWS-2007/embed77-81.jpg was recovered successfuly
+external/carver_output/results/DFRWS-2007/embed77-87.jpg was recovered successfuly
+external/carver_output/results/DFRWS-2007/embed10-1.jpg was recovered successfuly
+external/carver_output/results/DFRWS-2007/embed104-114.jpg was recovered successfuly
+external/carver_output/results/DFRWS-2007/embed75-30.jpg is corrupted
+external/carver_output/results/DFRWS-2007/embed76-56.jpg was recovered successfuly
+external/carver_output/results/DFRWS-2007/embed42-22.jpg was recovered successfuly
+external/carver_output/results/DFRWS-2007/embed76-71.jpg was recovered successfuly
+external/carver_output/results/DFRWS-2007/embed76-74.jpg was recovered successfuly
+external/carver_output/results/DFRWS-2007/embed60-26.jpg is corrupted
+external/carver_output/results/DFRWS-2007/embed37-16.jpg was recovered successfuly
+external/carver_output/results/DFRWS-2007/embed36-5.jpg is corrupted
+external/carver_output/results/DFRWS-2007/embed76-54.jpg was recovered successfuly
+external/carver_output/results/DFRWS-2007/embed76-43.jpg is corrupted
+external/carver_output/results/DFRWS-2007/embed77-88.jpg is corrupted
+external/carver_output/results/DFRWS-2007/embed76-58.jpg is corrupted
+external/carver_output/results/DFRWS-2007/embed77-93.jpg is corrupted
+external/carver_output/results/DFRWS-2007/embed37-15.jpg is corrupted
+external/carver_output/results/DFRWS-2007/embed76-49.jpg is corrupted
+external/carver_output/results/DFRWS-2007/embed77-82.jpg was recovered successfuly
+external/carver_output/results/DFRWS-2007/embed75-28.jpg is corrupted
+external/carver_output/results/DFRWS-2007/embed94-109.jpg is corrupted
+external/carver_output/results/DFRWS-2007/embed76-75.jpg was recovered successfuly
+external/carver_output/results/DFRWS-2007/embed37-17.jpg was recovered successfuly
+external/carver_output/results/DFRWS-2007/embed120-116.jpg is corrupted
+external/carver_output/results/DFRWS-2007/embed77-89.jpg was recovered successfuly
+external/carver_output/results/DFRWS-2007/embed77-90.jpg is corrupted
+external/carver_output/results/DFRWS-2007/embed73-27.jpg is corrupted
+external/carver_output/results/DFRWS-2007/embed76-52.jpg was recovered successfuly
+external/carver_output/results/DFRWS-2007/embed95-112.jpg is corrupted
+external/carver_output/results/DFRWS-2007/embed77-94.jpg was recovered successfuly
+external/carver_output/results/DFRWS-2007/embed77-78.jpg is corrupted
+external/carver_output/results/DFRWS-2007/embed76-59.jpg was recovered successfuly
+external/carver_output/results/DFRWS-2007/embed150-119.jpg was recovered successfuly
+external/carver_output/results/DFRWS-2007/embed76-65.jpg is corrupted
+external/carver_output/results/DFRWS-2007/embed77-96.jpg is corrupted
+external/carver_output/results/DFRWS-2007/embed92-104.jpg is fragmented - decoder sector 225 - decoder scanline 504
+external/carver_output/results/DFRWS-2007/embed76-67.jpg is corrupted
+external/carver_output/results/DFRWS-2007/embed75-32.jpg is corrupted
+external/carver_output/results/DFRWS-2007/embed77-80.jpg was recovered successfuly
+external/carver_output/results/DFRWS-2007/embed93-105.jpg is corrupted
+external/carver_output/results/DFRWS-2007/embed76-46.jpg was recovered successfuly
+external/carver_output/results/DFRWS-2007/embed76-60.jpg was recovered successfuly
+external/carver_output/results/DFRWS-2007/embed84-100.jpg was recovered successfuly
+external/carver_output/results/DFRWS-2007/embed77-85.jpg is corrupted
+external/carver_output/results/DFRWS-2007/embed76-38.jpg was recovered successfuly
+external/carver_output/results/DFRWS-2007/embed37-20.jpg is corrupted
+external/carver_output/results/DFRWS-2007/embed76-37.jpg is corrupted
+external/carver_output/results/DFRWS-2007/embed94-108.jpg is corrupted
+external/carver_output/results/DFRWS-2007/embed76-77.jpg is corrupted
+external/carver_output/results/DFRWS-2007/embed76-72.jpg is corrupted
+external/carver_output/results/DFRWS-2007/embed75-29.jpg is corrupted
+external/carver_output/results/DFRWS-2007/embed77-79.jpg was recovered successfuly
+external/carver_output/results/DFRWS-2007/embed38-21.jpg is corrupted
+external/carver_output/results/DFRWS-2007/embed77-99.jpg was recovered successfuly
+external/carver_output/results/DFRWS-2007/embed76-45.jpg was recovered successfuly
+external/carver_output/results/DFRWS-2007/embed76-51.jpg was recovered successfuly
+external/carver_output/results/DFRWS-2007/embed77-91.jpg was recovered successfuly
+external/carver_output/results/DFRWS-2007/embed44-23.jpg was recovered successfuly
+external/carver_output/results/DFRWS-2007/embed77-92.jpg is corrupted
+external/carver_output/results/DFRWS-2007/embed94-110.jpg is corrupted
+external/carver_output/results/DFRWS-2007/embed92-103.jpg was recovered successfuly
+external/carver_output/results/DFRWS-2007/embed149-118.jpg is corrupted
+external/carver_output/results/DFRWS-2007/embed94-107.jpg is fragmented - decoder sector 112 - decoder scanline 352
+external/carver_output/results/DFRWS-2007/embed76-73.jpg was recovered successfuly
+external/carver_output/results/DFRWS-2007/embed77-84.jpg was recovered successfuly
+external/carver_output/results/DFRWS-2007/embed76-39.jpg was recovered successfuly
+external/carver_output/results/DFRWS-2007/embed10-2.jpg is corrupted
+external/carver_output/results/DFRWS-2007/embed45-25.jpg is fragmented - decoder sector 6649 - decoder scanline 1848
+external/carver_output/results/DFRWS-2007/embed75-31.jpg is corrupted
+external/carver_output/results/DFRWS-2007/embed76-35.jpg was recovered successfuly
+external/carver_output/results/DFRWS-2007/embed104-113.jpg was recovered successfuly
+external/carver_output/results/DFRWS-2007/embed75-33.jpg is corrupted
+external/carver_output/results/DFRWS-2007/embed76-50.jpg is corrupted
+external/carver_output/results/DFRWS-2007/embed114-115.jpg is corrupted
+external/carver_output/results/DFRWS-2007/embed37-19.jpg is corrupted
+external/carver_output/results/DFRWS-2007/embed76-66.jpg was recovered successfuly
+external/carver_output/results/DFRWS-2007/embed76-61.jpg is corrupted
+external/carver_output/results/DFRWS-2007/embed76-63.jpg was recovered successfuly
+external/carver_output/results/DFRWS-2007/embed37-18.jpg is corrupted
+external/carver_output/results/DFRWS-2007/embed77-98.jpg was recovered successfuly
+external/carver_output/results/DFRWS-2007/embed76-44.jpg was recovered successfuly
+external/carver_output/results/DFRWS-2007/embed76-47.jpg is corrupted
+external/carver_output/results/DFRWS-2007/embed76-70.jpg was recovered successfuly
+external/carver_output/results/DFRWS-2007/embed12-4.jpg is corrupted
+external/carver_output/results/DFRWS-2007/embed85-101.jpg was recovered successfuly
+external/carver_output/results/DFRWS-2007/embed76-64.jpg was recovered successfuly
+external/carver_output/results/DFRWS-2007/embed76-36.jpg was recovered successfuly
+external/carver_output/results/DFRWS-2007/embed37-8.jpg was recovered successfuly
+external/carver_output/results/DFRWS-2007/embed76-69.jpg is corrupted
+external/carver_output/results/DFRWS-2007/embed37-11.jpg was recovered successfuly
+external/carver_output/results/DFRWS-2007/embed45-24.jpg was recovered successfuly
+external/carver_output/results/DFRWS-2007/embed37-6.jpg is corrupted
+external/carver_output/results/DFRWS-2007/embed76-53.jpg is corrupted
+external/carver_output/results/DFRWS-2007/embed12-3.jpg was recovered successfuly
+external/carver_output/results/DFRWS-2007/embed77-86.jpg was recovered successfuly
+external/carver_output/results/DFRWS-2007/embed76-41.jpg is corrupted
+external/carver_output/results/DFRWS-2007/embed76-42.jpg is corrupted
+external/carver_output/results/DFRWS-2007/embed76-68.jpg was recovered successfuly
+external/carver_output/results/DFRWS-2007/embed77-95.jpg is corrupted
+external/carver_output/results/DFRWS-2007/embed77-97.jpg is corrupted
+external/carver_output/results/DFRWS-2007/embed76-34.jpg was recovered successfuly
+external/carver_output/results/DFRWS-2007/embed37-9.jpg was recovered successfuly
+external/carver_output/results/DFRWS-2007/embed150-120.jpg is fragmented - decoder sector 1780 - decoder scanline 1944
+external/carver_output/results/DFRWS-2007/embed76-62.jpg is corrupted
+external/carver_output/results/DFRWS-2007/embed76-76.jpg is corrupted
+external/carver_output/results/DFRWS-2007/embed77-83.jpg is corrupted
+external/carver_output/results/DFRWS-2007/embed37-14.jpg was recovered successfuly
+external/carver_output/results/DFRWS-2007/embed76-40.jpg was recovered successfuly
+external/carver_output/results/DFRWS-2007/embed85-102.jpg was recovered successfuly
+external/carver_output/results/DFRWS-2007/embed94-111.jpg is corrupted
+external/carver_output/results/DFRWS-2007/embed76-57.jpg was recovered successfuly
+
+Finding fully-recovered JPEG images
+external/carver_output/results/DFRWS-2007/carve144.jpg was recovered successfuly
+external/carver_output/results/DFRWS-2007/carve138.jpg was recovered successfuly
+external/carver_output/results/DFRWS-2007/carve128.jpg was recovered successfuly
+external/carver_output/results/DFRWS-2007/carve19.jpg was recovered successfuly
+external/carver_output/results/DFRWS-2007/carve75.jpg was recovered successfuly
+external/carver_output/results/DFRWS-2007/carve22.jpg was recovered successfuly
+external/carver_output/results/DFRWS-2007/carve129.jpg was recovered successfuly
+external/carver_output/results/DFRWS-2007/carve145.jpg was recovered successfuly
+external/carver_output/results/DFRWS-2007/carve131.jpg was recovered successfuly
+external/carver_output/results/DFRWS-2007/carve148.jpg was recovered successfuly
+external/carver_output/results/DFRWS-2007/carve134.jpg was recovered successfuly
+external/carver_output/results/DFRWS-2007/carve135.jpg was recovered successfuly
+external/carver_output/results/DFRWS-2007/carve88.jpg was recovered successfuly
+external/carver_output/results/DFRWS-2007/carve141.jpg was recovered successfuly
+external/carver_output/results/DFRWS-2007/carve147.jpg was recovered successfuly
+external/carver_output/results/DFRWS-2007/carve17.jpg was recovered successfuly
+external/carver_output/results/DFRWS-2007/carve28.jpg was recovered successfuly
+external/carver_output/results/DFRWS-2007/carve137.jpg was recovered successfuly
+external/carver_output/results/DFRWS-2007/carve13.jpg was recovered successfuly
+external/carver_output/results/DFRWS-2007/carve140.jpg was recovered successfuly
+external/carver_output/results/DFRWS-2007/carve133.jpg was recovered successfuly
+external/carver_output/results/DFRWS-2007/carve27.jpg was recovered successfuly
+external/carver_output/results/DFRWS-2007/carve30.jpg was recovered successfuly
+external/carver_output/results/DFRWS-2007/carve122.jpg was recovered successfuly
+external/carver_output/results/DFRWS-2007/carve124.jpg was recovered successfuly
+external/carver_output/results/DFRWS-2007/carve47.jpg was recovered successfuly
+external/carver_output/results/DFRWS-2007/carve146.jpg was recovered successfuly
+external/carver_output/results/DFRWS-2007/carve143.jpg was recovered successfuly
+external/carver_output/results/DFRWS-2007/carve132.jpg was recovered successfuly
+external/carver_output/results/DFRWS-2007/carve15.jpg was recovered successfuly
+external/carver_output/results/DFRWS-2007/carve32.jpg was recovered successfuly
+external/carver_output/results/DFRWS-2007/carve127.jpg was recovered successfuly
+external/carver_output/results/DFRWS-2007/carve94.jpg was recovered successfuly
+external/carver_output/results/DFRWS-2007/carve77.jpg was recovered successfuly
+external/carver_output/results/DFRWS-2007/carve149.jpg was recovered successfuly
+external/carver_output/results/DFRWS-2007/carve37.jpg was recovered successfuly
+external/carver_output/results/DFRWS-2007/carve38.jpg was recovered successfuly
+external/carver_output/results/DFRWS-2007/carve36.jpg was recovered successfuly
+external/carver_output/results/DFRWS-2007/carve61.jpg was recovered successfuly
+external/carver_output/results/DFRWS-2007/carve76.jpg was recovered successfuly
+external/carver_output/results/DFRWS-2007/carve24.jpg was recovered successfuly
+
+Finding fragmented and corrupted JPEG images
+external/carver_output/results/DFRWS-2007/carve95.jpg is corrupted
+external/carver_output/results/DFRWS-2007/carve62.jpg is corrupted
+external/carver_output/results/DFRWS-2007/carve96.jpg is corrupted
+external/carver_output/results/DFRWS-2007/carve50.jpg is corrupted
+external/carver_output/results/DFRWS-2007/carve92.jpg is fragmented (Decoder)   - sector: 256; line: 504
+external/carver_output/results/DFRWS-2007/carve92.jpg is fragmented (Thumbnail) - sector: 259; line: 512
+external/carver_output/results/DFRWS-2007/carve118.jpg is corrupted
+external/carver_output/results/DFRWS-2007/carve16.jpg is corrupted
+external/carver_output/results/DFRWS-2007/carve44.jpg is fragmented (Decoder)   - sector: 3292; line: 1200
+external/carver_output/results/DFRWS-2007/carve44.jpg is fragmented (Thumbnail) - sector: 674; line: 592
+external/carver_output/results/DFRWS-2007/carve126.jpg is corrupted
+external/carver_output/results/DFRWS-2007/carve91.jpg is corrupted
+external/carver_output/results/DFRWS-2007/carve154.jpg is corrupted
+external/carver_output/results/DFRWS-2007/carve72.jpg is corrupted
+external/carver_output/results/DFRWS-2007/carve78.jpg is corrupted
+external/carver_output/results/DFRWS-2007/carve55.jpg is corrupted
+external/carver_output/results/DFRWS-2007/carve80.jpg is corrupted
+external/carver_output/results/DFRWS-2007/carve117.jpg is corrupted
+external/carver_output/results/DFRWS-2007/carve125.jpg is corrupted
+external/carver_output/results/DFRWS-2007/carve57.jpg is corrupted
+external/carver_output/results/DFRWS-2007/carve98.jpg is corrupted
+external/carver_output/results/DFRWS-2007/carve2.jpg is corrupted
+external/carver_output/results/DFRWS-2007/carve105.jpg is corrupted
+external/carver_output/results/DFRWS-2007/carve114.jpg is corrupted
+external/carver_output/results/DFRWS-2007/carve56.jpg is corrupted
+external/carver_output/results/DFRWS-2007/carve113.jpg is corrupted
+external/carver_output/results/DFRWS-2007/carve107.jpg is corrupted
+external/carver_output/results/DFRWS-2007/carve8.jpg is corrupted
+external/carver_output/results/DFRWS-2007/carve42.jpg is corrupted
+external/carver_output/results/DFRWS-2007/carve104.jpg is corrupted
+external/carver_output/results/DFRWS-2007/carve1.jpg is corrupted
+external/carver_output/results/DFRWS-2007/carve103.jpg is corrupted
+external/carver_output/results/DFRWS-2007/carve67.jpg is corrupted
+external/carver_output/results/DFRWS-2007/carve81.jpg is corrupted
+external/carver_output/results/DFRWS-2007/carve21.jpg is corrupted
+external/carver_output/results/DFRWS-2007/carve115.jpg is corrupted
+external/carver_output/results/DFRWS-2007/carve109.jpg is corrupted
+external/carver_output/results/DFRWS-2007/carve14.jpg is corrupted
+external/carver_output/results/DFRWS-2007/carve45.jpg is fragmented (Decoder)   - sector: 6670; line: 1848
+external/carver_output/results/DFRWS-2007/carve45.jpg is fragmented (Thumbnail) - sector: -1; line: -1
+external/carver_output/results/DFRWS-2007/carve90.jpg is fragmented (Decoder)   - sector: 176; line: 296
+external/carver_output/results/DFRWS-2007/carve90.jpg is fragmented (Thumbnail) - sector: -1; line: -1
+external/carver_output/results/DFRWS-2007/carve39.jpg is corrupted
+external/carver_output/results/DFRWS-2007/carve121.jpg is corrupted
+external/carver_output/results/DFRWS-2007/carve65.jpg is corrupted
+external/carver_output/results/DFRWS-2007/carve73.jpg is corrupted
+external/carver_output/results/DFRWS-2007/carve49.jpg is corrupted
+external/carver_output/results/DFRWS-2007/carve83.jpg is corrupted
+external/carver_output/results/DFRWS-2007/carve25.jpg is corrupted
+external/carver_output/results/DFRWS-2007/carve40.jpg is corrupted
+external/carver_output/results/DFRWS-2007/carve108.jpg is corrupted
+external/carver_output/results/DFRWS-2007/carve85.jpg is fragmented (Decoder)   - sector: 5311; line: 1632
+external/carver_output/results/DFRWS-2007/carve85.jpg is fragmented (Thumbnail) - sector: 5309; line: 1632
+external/carver_output/results/DFRWS-2007/carve23.jpg is corrupted
+external/carver_output/results/DFRWS-2007/carve87.jpg is corrupted
+external/carver_output/results/DFRWS-2007/carve111.jpg is corrupted
+external/carver_output/results/DFRWS-2007/carve59.jpg is corrupted
+external/carver_output/results/DFRWS-2007/carve112.jpg is corrupted
+external/carver_output/results/DFRWS-2007/carve152.jpg is corrupted
+external/carver_output/results/DFRWS-2007/carve54.jpg is corrupted
+external/carver_output/results/DFRWS-2007/carve99.jpg is corrupted
+external/carver_output/results/DFRWS-2007/carve130.jpg is corrupted
+external/carver_output/results/DFRWS-2007/carve58.jpg is corrupted
+external/carver_output/results/DFRWS-2007/carve4.jpg is corrupted
+external/carver_output/results/DFRWS-2007/carve66.jpg is corrupted
+external/carver_output/results/DFRWS-2007/carve86.jpg is fragmented (Decoder)   - sector: 15; line: 24
+external/carver_output/results/DFRWS-2007/carve86.jpg is fragmented (Thumbnail) - sector: -1; line: -1
+external/carver_output/results/DFRWS-2007/carve120.jpg is corrupted
+external/carver_output/results/DFRWS-2007/carve123.jpg is corrupted
+external/carver_output/results/DFRWS-2007/carve136.jpg is corrupted
+external/carver_output/results/DFRWS-2007/carve9.jpg is corrupted
+external/carver_output/results/DFRWS-2007/carve93.jpg is corrupted
+external/carver_output/results/DFRWS-2007/carve41.jpg is corrupted
+external/carver_output/results/DFRWS-2007/carve70.jpg is corrupted
+external/carver_output/results/DFRWS-2007/carve7.jpg is corrupted
+external/carver_output/results/DFRWS-2007/carve142.jpg is corrupted
+external/carver_output/results/DFRWS-2007/carve101.jpg is corrupted
+external/carver_output/results/DFRWS-2007/carve69.jpg is corrupted
+external/carver_output/results/DFRWS-2007/carve74.jpg is corrupted
+external/carver_output/results/DFRWS-2007/carve79.jpg is corrupted
+external/carver_output/results/DFRWS-2007/carve10.jpg is corrupted
+external/carver_output/results/DFRWS-2007/carve139.jpg is corrupted
+external/carver_output/results/DFRWS-2007/carve6.jpg is corrupted
+external/carver_output/results/DFRWS-2007/carve33.jpg is corrupted
+external/carver_output/results/DFRWS-2007/carve34.jpg is corrupted
+external/carver_output/results/DFRWS-2007/carve68.jpg is corrupted
+external/carver_output/results/DFRWS-2007/carve64.jpg is corrupted
+external/carver_output/results/DFRWS-2007/carve71.jpg is corrupted
+external/carver_output/results/DFRWS-2007/carve51.jpg is corrupted
+external/carver_output/results/DFRWS-2007/carve48.jpg is corrupted
+external/carver_output/results/DFRWS-2007/carve43.jpg is fragmented (Decoder)   - sector: 1328; line: 736
+external/carver_output/results/DFRWS-2007/carve43.jpg is fragmented (Thumbnail) - sector: -1; line: -1
+external/carver_output/results/DFRWS-2007/carve60.jpg is corrupted
+external/carver_output/results/DFRWS-2007/carve46.jpg is corrupted
+external/carver_output/results/DFRWS-2007/carve119.jpg is corrupted
+external/carver_output/results/DFRWS-2007/carve11.jpg is corrupted
+external/carver_output/results/DFRWS-2007/carve18.jpg is corrupted
+external/carver_output/results/DFRWS-2007/carve151.jpg is corrupted
+external/carver_output/results/DFRWS-2007/carve12.jpg is fragmented (Decoder)   - sector: 486; line: 1038
+external/carver_output/results/DFRWS-2007/carve12.jpg is fragmented (Thumbnail) - sector: 485; line: 1040
+external/carver_output/results/DFRWS-2007/carve97.jpg is corrupted
+external/carver_output/results/DFRWS-2007/carve35.jpg is corrupted
+external/carver_output/results/DFRWS-2007/carve100.jpg is corrupted
+external/carver_output/results/DFRWS-2007/carve20.jpg is corrupted
+external/carver_output/results/DFRWS-2007/carve102.jpg is corrupted
+external/carver_output/results/DFRWS-2007/carve5.jpg is corrupted
+external/carver_output/results/DFRWS-2007/carve29.jpg is corrupted
+external/carver_output/results/DFRWS-2007/carve116.jpg is corrupted
+external/carver_output/results/DFRWS-2007/carve89.jpg is fragmented (Decoder)   - sector: 1836; line: 1472
+external/carver_output/results/DFRWS-2007/carve89.jpg is fragmented (Thumbnail) - sector: -1; line: -1
+external/carver_output/results/DFRWS-2007/carve106.jpg is corrupted
+external/carver_output/results/DFRWS-2007/carve63.jpg is corrupted
+external/carver_output/results/DFRWS-2007/carve153.jpg is corrupted
+external/carver_output/results/DFRWS-2007/carve84.jpg is corrupted
+external/carver_output/results/DFRWS-2007/carve31.jpg is corrupted
+external/carver_output/results/DFRWS-2007/carve52.jpg is corrupted
+external/carver_output/results/DFRWS-2007/carve3.jpg is corrupted
+external/carver_output/results/DFRWS-2007/carve150.jpg is fragmented (Decoder)   - sector: 1791; line: 1944
+external/carver_output/results/DFRWS-2007/carve150.jpg is fragmented (Thumbnail) - sector: 373; line: 392
+external/carver_output/results/DFRWS-2007/carve82.jpg is corrupted
+external/carver_output/results/DFRWS-2007/carve110.jpg is corrupted
+external/carver_output/results/DFRWS-2007/carve26.jpg is corrupted
+external/carver_output/results/DFRWS-2007/carve53.jpg is corrupted

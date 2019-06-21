@@ -1,0 +1,249 @@
+This is a valid header (non-thumbnail) since another ffd8 was encountered in the same sector
+3868: Start of image 1
+Creating new file external/output/results/DFRWS-2006/carve1.jpg
+3868: Opening embed1-1.jpg..
+3879: Closing embed1.jpg.. (11 - 5549)
+This is a thumbnail header since a restart interval was found in this sector
+3897: Opening embed1-2.jpg..
+3908: Closing embed2.jpg.. (11 - 5549)
+4428: End Of Image 1
+
+8285: Start of image 2
+Creating new file external/output/results/DFRWS-2006/carve2.jpg
+9473: End Of Image 2
+
+This is a valid header (non-thumbnail) since another ffd8 was encountered in the same sector
+11619: Start of image 3
+Creating new file external/output/results/DFRWS-2006/carve3.jpg
+11619: Opening embed3-3.jpg..
+11623: Closing embed3.jpg.. (4 - 1787)
+[11823] : skipped since it is not JPEG
+[11824] : skipped since it is not JPEG
+[11825] : skipped since it is not JPEG
+[11826] : skipped since it is not JPEG
+[11827] : skipped since it is not JPEG
+[11828] : skipped since it is not JPEG
+[11829] : skipped since it is not JPEG
+[11830] : skipped since it is not JPEG
+[11831] : skipped since it is not JPEG
+[11832] : skipped since it is not JPEG
+[11833] : skipped since it is not JPEG
+[11834] : skipped since it is not JPEG
+[11835] : skipped since it is not JPEG
+[11836] : skipped since it is not JPEG
+[11837] : skipped since it is not JPEG
+[11838] : skipped since it is not JPEG
+[11839] : skipped since it is not JPEG
+[11840] : skipped since it is not JPEG
+[11841] : skipped since it is not JPEG
+[11842] : skipped since it is not JPEG
+[11843] : skipped since it is not JPEG
+[11844] : skipped since it is not JPEG
+[11845] : skipped since it is not JPEG
+[11846] : skipped since it is not JPEG
+[11847] : skipped since it is not JPEG
+[11849] : This the continuation sector after fragmentation point
+12017: End Of Image 3
+
+12222: Start of image 4
+Creating new file external/output/results/DFRWS-2006/carve4.jpg
+26116: End Of Image 4
+
+27607: Start of image 5
+Creating new file external/output/results/DFRWS-2006/carve5.jpg
+27977: End Of Image 5
+
+31475: Start of image 6
+Creating new file external/output/results/DFRWS-2006/carve6.jpg
+Closing previous opened file
+31533: Start of image 7
+Creating new file external/output/results/DFRWS-2006/carve7.jpg
+31887: End Of Image 6
+
+36292: Start of image 8
+Creating new file external/output/results/DFRWS-2006/carve8.jpg
+36640: End Of Image 7
+
+40638: Start of image 9
+Creating new file external/output/results/DFRWS-2006/carve9.jpg
+41222: End Of Image 8
+
+41611: Start of image 10
+Creating new file external/output/results/DFRWS-2006/carve10.jpg
+Closing previous opened file
+43434: Start of image 11
+Creating new file external/output/results/DFRWS-2006/carve11.jpg
+44028: End Of Image 9
+
+This is a valid header (non-thumbnail) since another ffd8 was encountered in the same sector
+45566: Start of image 12
+Creating new file external/output/results/DFRWS-2006/carve12.jpg
+This is a thumbnail header since a restart interval was found in this sector
+45566: Opening embed12-4.jpg..
+45579: Closing embed4.jpg.. (13 - 6598)
+[45964] : skipped since it is not JPEG
+[45965] : skipped since it is not JPEG
+[45966] : skipped since it is not JPEG
+[45967] : skipped since it is not JPEG
+[45968] : skipped since it is not JPEG
+[45969] : skipped since it is not JPEG
+[45970] : skipped since it is not JPEG
+[45971] : skipped since it is not JPEG
+[45973] : skipped since it is not JPEG
+[45974] : skipped since it is not JPEG
+[45975] : skipped since it is not JPEG
+[45976] : skipped since it is not JPEG
+[45977] : skipped since it is not JPEG
+[45978] : skipped since it is not JPEG
+[45979] : skipped since it is not JPEG
+[45980] : skipped since it is not JPEG
+[45981] : skipped since it is not JPEG
+[45982] : skipped since it is not JPEG
+[45983] : skipped since it is not JPEG
+[45984] : skipped since it is not JPEG
+[45985] : skipped since it is not JPEG
+[45987] : skipped since it is not JPEG
+[45988] : skipped since it is not JPEG
+[45989] : skipped since it is not JPEG
+[45990] : skipped since it is not JPEG
+[45991] : skipped since it is not JPEG
+[45992] : skipped since it is not JPEG
+[45993] : skipped since it is not JPEG
+[45994] : skipped since it is not JPEG
+[45995] : skipped since it is not JPEG
+[45996] : skipped since it is not JPEG
+[45997] : skipped since it is not JPEG
+[45998] : skipped since it is not JPEG
+[45999] : skipped since it is not JPEG
+[46000] : skipped since it is not JPEG
+[46001] : skipped since it is not JPEG
+[46002] : skipped since it is not JPEG
+[46003] : skipped since it is not JPEG
+[46004] : skipped since it is not JPEG
+[46005] : skipped since it is not JPEG
+[46009] : skipped since it is not JPEG
+[46010] : skipped since it is not JPEG
+[46011] : skipped since it is not JPEG
+[46012] : skipped since it is not JPEG
+[46013] : skipped since it is not JPEG
+[46014] : skipped since it is not JPEG
+[46015] : skipped since it is not JPEG
+[46016] : skipped since it is not JPEG
+[46017] : skipped since it is not JPEG
+[46018] : skipped since it is not JPEG
+[46019] : skipped since it is not JPEG
+[46020] : skipped since it is not JPEG
+[46021] : skipped since it is not JPEG
+[46022] : skipped since it is not JPEG
+[46023] : skipped since it is not JPEG
+[46024] : skipped since it is not JPEG
+[46025] : skipped since it is not JPEG
+[46026] : skipped since it is not JPEG
+[46027] : skipped since it is not JPEG
+[46028] : skipped since it is not JPEG
+[46029] : skipped since it is not JPEG
+[46030] : skipped since it is not JPEG
+[46031] : skipped since it is not JPEG
+[46032] : skipped since it is not JPEG
+[46033] : skipped since it is not JPEG
+[46034] : skipped since it is not JPEG
+[46035] : skipped since it is not JPEG
+[46036] : skipped since it is not JPEG
+[46037] : skipped since it is not JPEG
+[46038] : skipped since it is not JPEG
+[46039] : skipped since it is not JPEG
+[46040] : skipped since it is not JPEG
+[46041] : skipped since it is not JPEG
+[46042] : skipped since it is not JPEG
+[46043] : skipped since it is not JPEG
+[46044] : skipped since it is not JPEG
+[46045] : skipped since it is not JPEG
+[46050] : skipped since it is not JPEG
+[46051] : skipped since it is not JPEG
+[46052] : skipped since it is not JPEG
+[46053] : skipped since it is not JPEG
+[46054] : skipped since it is not JPEG
+[46055] : skipped since it is not JPEG
+[46056] : skipped since it is not JPEG
+[46057] : skipped since it is not JPEG
+[46058] : skipped since it is not JPEG
+[46059] : skipped since it is not JPEG
+[46060] : skipped since it is not JPEG
+[46061] : skipped since it is not JPEG
+[46062] : skipped since it is not JPEG
+[46063] : skipped since it is not JPEG
+[46064] : skipped since it is not JPEG
+[46065] : skipped since it is not JPEG
+[46066] : skipped since it is not JPEG
+[46067] : skipped since it is not JPEG
+[46068] : skipped since it is not JPEG
+[46069] : skipped since it is not JPEG
+[46072] : skipped since it is not JPEG
+[46073] : skipped since it is not JPEG
+[46077] : skipped since it is not JPEG
+[46078] : skipped since it is not JPEG
+[46080] : skipped since it is not JPEG
+[46081] : skipped since it is not JPEG
+[46083] : skipped since it is not JPEG
+[46084] : skipped since it is not JPEG
+[46085] : skipped since it is not JPEG
+[46086] : skipped since it is not JPEG
+[46087] : skipped since it is not JPEG
+[46088] : skipped since it is not JPEG
+[46089] : skipped since it is not JPEG
+[46090] : skipped since it is not JPEG
+[46091] : skipped since it is not JPEG
+[46092] : skipped since it is not JPEG
+[46093] : skipped since it is not JPEG
+[46094] : skipped since it is not JPEG
+[46095] : skipped since it is not JPEG
+[46096] : skipped since it is not JPEG
+[46097] : skipped since it is not JPEG
+[46099] : skipped since it is not JPEG
+[46100] : skipped since it is not JPEG
+[46101] : skipped since it is not JPEG
+[46102] : skipped since it is not JPEG
+[46103] : skipped since it is not JPEG
+[46104] : This the continuation sector after fragmentation point
+46826: End Of Image 10
+
+46910: Start of image 13
+Creating new file external/output/results/DFRWS-2006/carve13.jpg
+94836: End Of Image 11
+
+94846: Start of image 14
+Creating new file external/output/results/DFRWS-2006/carve14.jpg
+This is a thumbnail header since a restart interval was found in this sector
+94847: Opening embed14-5.jpg..
+94852: Closing embed5.jpg.. (5 - 2631)
+95629: End Of Image 12
+
+
+Finding embedded JPEG images
+external/output/results/DFRWS-2006/embed1-2.jpg was recovered successfuly
+external/output/results/DFRWS-2006/embed3-3.jpg was recovered successfuly
+external/output/results/DFRWS-2006/embed1-1.jpg was recovered successfuly
+external/output/results/DFRWS-2006/embed12-4.jpg was recovered successfuly
+external/output/results/DFRWS-2006/embed14-5.jpg was recovered successfuly
+
+Finding fully-recovered JPEG images
+external/output/results/DFRWS-2006/carve2.jpg was recovered successfuly
+external/output/results/DFRWS-2006/carve8.jpg was recovered successfuly
+external/output/results/DFRWS-2006/carve1.jpg was recovered successfuly
+external/output/results/DFRWS-2006/carve4.jpg was recovered successfuly
+external/output/results/DFRWS-2006/carve13.jpg was recovered successfuly
+external/output/results/DFRWS-2006/carve11.jpg was recovered successfuly
+external/output/results/DFRWS-2006/carve12.jpg was recovered successfuly
+external/output/results/DFRWS-2006/carve5.jpg was recovered successfuly
+external/output/results/DFRWS-2006/carve3.jpg was recovered successfuly
+
+Finding fragmented and corrupted JPEG images
+external/output/results/DFRWS-2006/carve14.jpg is fragmented (Decoder)   - sector: 784; line: 984
+external/output/results/DFRWS-2006/carve14.jpg is fragmented (Thumbnail) - sector: 781; line: 984
+external/output/results/DFRWS-2006/carve9.jpg is corrupted
+external/output/results/DFRWS-2006/carve7.jpg is fragmented (Decoder)   - sector: 228; line: 590
+external/output/results/DFRWS-2006/carve7.jpg is fragmented (Thumbnail) - sector: -1; line: -1
+external/output/results/DFRWS-2006/carve10.jpg is fragmented (Decoder)   - sector: 1823; line: 904
+external/output/results/DFRWS-2006/carve10.jpg is fragmented (Thumbnail) - sector: -1; line: -1
+external/output/results/DFRWS-2006/carve6.jpg is fragmented (Decoder)   - sector: 58; line: 174
+external/output/results/DFRWS-2006/carve6.jpg is fragmented (Thumbnail) - sector: -1; line: -1

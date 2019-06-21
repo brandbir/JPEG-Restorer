@@ -1,0 +1,42 @@
+
+DFRWS-2006
+
+Sequentially Carved + Entropy Filtering (Threshold: 0.2) - Carved 14 JPEGs in 3.83 s - 0.06 mins
+
+Sequentially Carved + individual Smart Carved images:
+
+- Carve 6  (2 frags) - 6.67   s - 0.11 mins		[iterations: 1691] * the number of iterations performed for recovery	
+- Carve 10 (2 frags) - 7.12   s - 0.12 mins		[iterations: 173]	
+- Carve 14 (2 frags) - 249.26 s - 4.15 mins		[iterations: 1029]
+- Carve 7  (2 frags) - 143.89 s - 2.40 mins 		[iterations: 1516]
+
+-------------------------------------------------------------------------------------------------------------------
+DFRWS-2007
+
+Sequentially Carved + Entropy Filtering (Threshold: 0.2) - Carved 102 JPEGs in 6.98 s - 0.12 mins
+
+Note: Maximum number of iteration to recover a JPEG was increased to 20,000 since CARVE 90
+requires 16511 iterations in order to be fully-recovered
+
+Sequentially Carved + individual Smart Carved images:
+
+- Carve 86 (2 frags) - 38.70   s - 0.65 mins		[iterations 9882]
+- Carve 90 (2 frags) - 1555.44 s - 25.92 mins		[iterations 16511]
+
+Note that CARVE 90 took approximately  26 minutes to be recovered since the sector before the fragmentation point 
+was detected incorrectly (delayed by 14 sectors) and a timeout of 20,000 iterations was used for each case.
+
+-------------------------------------------------------------------------------------------------------------------
+GEN6
+
+Sequentially Carved + Entropy Filtering (Threshold: 0.2) - Carved 96 JPEGs in 8.34 s - 0.14 mins
+
+Sequentially Carved + individual Smart Carved image:
+
+- Carve 1  (3 frags)  - 9.75   s  - 0.16  mins	[iterations: 389]		
+- Carve 3  (4 frags)  - 30.24  s  - 0.50  mins  [iterations: 133]		
+- Carve 5  (3 frags)  - 167.42 s  - 2.79  mins	[iterations: 25]		
+- carve 10 (2 frags)  - 8.20   s  - 0.14  mins 	[iterations: 145]
+- Carve 23 (3 frags)  - 11.55  s  - 0.19  mins	[iterations: 75]	
+- Carve 32 (3 frags)  - 10.91  s  - 0.18  mins	[iterations: 17]
+-------------------------------------------------------------------------------------------------------------------

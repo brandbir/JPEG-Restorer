@@ -1,0 +1,382 @@
+119: Opening embed0-1.jpg..
+127: Opening embed0-2.jpg..
+173: Start of image 1
+Creating new file external/carver_output/results/nps-2009-gen6/carve1.jpg
+183: Opening embed1-3.jpg..
+187: Closing embed3.jpg.. (4 - 2512)
+188: Opening embed1-4.jpg..
+Closing previous opened file
+237: Start of image 2
+Creating new file external/carver_output/results/nps-2009-gen6/carve2.jpg
+247: Opening embed2-5.jpg..
+254: Closing embed5.jpg.. (7 - 3593)
+255: Opening embed2-6.jpg..
+2896: End Of Image 1
+
+2989: Start of image 3
+Creating new file external/carver_output/results/nps-2009-gen6/carve3.jpg
+2999: Opening embed3-7.jpg..
+3006: Closing embed7.jpg.. (7 - 3779)
+3007: Opening embed3-8.jpg..
+Closing previous opened file
+3533: Start of image 4
+Creating new file external/carver_output/results/nps-2009-gen6/carve4.jpg
+3543: Opening embed4-9.jpg..
+3550: Closing embed9.jpg.. (7 - 3679)
+3551: Opening embed4-10.jpg..
+5173: End Of Image 2
+
+8077: Start of image 5
+Creating new file external/carver_output/results/nps-2009-gen6/carve5.jpg
+8087: Opening embed5-11.jpg..
+8095: Closing embed11.jpg.. (8 - 4124)
+8096: Opening embed5-12.jpg..
+Closing previous opened file
+10093: Start of image 6
+Creating new file external/carver_output/results/nps-2009-gen6/carve6.jpg
+10103: Opening embed6-13.jpg..
+10109: Closing embed13.jpg.. (6 - 3262)
+10110: Opening embed6-14.jpg..
+11783: End Of Image 3
+
+12461: Start of image 7
+Creating new file external/carver_output/results/nps-2009-gen6/carve7.jpg
+12471: Opening embed7-15.jpg..
+12476: Closing embed15.jpg.. (5 - 2782)
+12477: Opening embed7-16.jpg..
+12677: Closing embed16.jpg.. (200 - 102492)
+Closing previous opened file
+12685: Start of image 8
+Creating new file external/carver_output/results/nps-2009-gen6/carve8.jpg
+12695: Opening embed8-17.jpg..
+12700: Closing embed17.jpg.. (5 - 2675)
+12701: Opening embed8-18.jpg..
+12911: Closing embed18.jpg.. (210 - 107941)
+Closing previous opened file
+12941: Start of image 9
+Creating new file external/carver_output/results/nps-2009-gen6/carve9.jpg
+12951: Opening embed9-19.jpg..
+12956: Closing embed19.jpg.. (5 - 2986)
+12957: Opening embed9-20.jpg..
+13176: Closing embed20.jpg.. (219 - 112247)
+Closing previous opened file
+13197: Start of image 10
+Creating new file external/carver_output/results/nps-2009-gen6/carve10.jpg
+13207: Opening embed10-21.jpg..
+13213: Closing embed21.jpg.. (6 - 3253)
+13214: Opening embed10-22.jpg..
+Closing previous opened file
+13261: Start of image 11
+Creating new file external/carver_output/results/nps-2009-gen6/carve11.jpg
+13271: Opening embed11-23.jpg..
+13277: Closing embed23.jpg.. (6 - 3362)
+13278: Opening embed11-24.jpg..
+14902: End Of Image 4
+
+16621: Start of image 12
+Creating new file external/carver_output/results/nps-2009-gen6/carve12.jpg
+16631: Opening embed12-25.jpg..
+16637: Closing embed25.jpg.. (6 - 3226)
+16638: Opening embed12-26.jpg..
+18126: End Of Image 5
+
+18349: Start of image 13
+Creating new file external/carver_output/results/nps-2009-gen6/carve13.jpg
+18359: Opening embed13-27.jpg..
+18365: Closing embed27.jpg.. (6 - 3268)
+18366: Opening embed13-28.jpg..
+18573: Closing embed28.jpg.. (207 - 106234)
+Closing previous opened file
+18605: Start of image 14
+Creating new file external/carver_output/results/nps-2009-gen6/carve14.jpg
+18615: Opening embed14-29.jpg..
+18621: Closing embed29.jpg.. (6 - 3406)
+18622: Opening embed14-30.jpg..
+18853: Closing embed30.jpg.. (231 - 118485)
+Closing previous opened file
+18861: Start of image 15
+Creating new file external/carver_output/results/nps-2009-gen6/carve15.jpg
+18871: Opening embed15-31.jpg..
+18878: Closing embed31.jpg.. (7 - 3701)
+18879: Opening embed15-32.jpg..
+19115: Closing embed32.jpg.. (236 - 121200)
+19750: End Of Image 6
+
+19757: Start of image 16
+Creating new file external/carver_output/results/nps-2009-gen6/carve16.jpg
+19767: Opening embed16-33.jpg..
+19774: Closing embed33.jpg.. (7 - 3684)
+19775: Opening embed16-34.jpg..
+21401: End Of Image 7
+
+21421: Start of image 17
+Creating new file external/carver_output/results/nps-2009-gen6/carve17.jpg
+21431: Opening embed17-35.jpg..
+21437: Closing embed35.jpg.. (6 - 3366)
+21438: Opening embed17-36.jpg..
+23126: End Of Image 8
+
+23533: Start of image 18
+Creating new file external/carver_output/results/nps-2009-gen6/carve18.jpg
+23543: Opening embed18-37.jpg..
+23550: Closing embed37.jpg.. (7 - 4042)
+23551: Opening embed18-38.jpg..
+Closing previous opened file
+24781: Start of image 19
+Creating new file external/carver_output/results/nps-2009-gen6/carve19.jpg
+24791: Opening embed19-39.jpg..
+24797: Closing embed39.jpg.. (6 - 3525)
+24798: Opening embed19-40.jpg..
+26448: End Of Image 9
+
+26477: Start of image 20
+Creating new file external/carver_output/results/nps-2009-gen6/carve20.jpg
+26487: Opening embed20-41.jpg..
+26493: Closing embed41.jpg.. (6 - 3382)
+26494: Opening embed20-42.jpg..
+28030: End Of Image 10
+
+28045: Start of image 21
+Creating new file external/carver_output/results/nps-2009-gen6/carve21.jpg
+28055: Opening embed21-43.jpg..
+28061: Closing embed43.jpg.. (6 - 3456)
+28062: Opening embed21-44.jpg..
+29577: End Of Image 11
+
+29581: Start of image 22
+Creating new file external/carver_output/results/nps-2009-gen6/carve22.jpg
+29591: Opening embed22-45.jpg..
+29597: Closing embed45.jpg.. (6 - 3564)
+29598: Opening embed22-46.jpg..
+32842: End Of Image 12
+
+32845: Start of image 23
+Creating new file external/carver_output/results/nps-2009-gen6/carve23.jpg
+32855: Opening embed23-47.jpg..
+32862: Closing embed47.jpg.. (7 - 3960)
+32863: Opening embed23-48.jpg..
+Closing previous opened file
+33005: Start of image 24
+Creating new file external/carver_output/results/nps-2009-gen6/carve24.jpg
+33015: Opening embed24-49.jpg..
+33021: Closing embed49.jpg.. (6 - 3422)
+33022: Opening embed24-50.jpg..
+34605: End Of Image 13
+
+34637: Start of image 25
+Creating new file external/carver_output/results/nps-2009-gen6/carve25.jpg
+34647: Opening embed25-51.jpg..
+34653: Closing embed51.jpg.. (6 - 3538)
+34654: Opening embed25-52.jpg..
+36060: End Of Image 14
+
+36077: Start of image 26
+Creating new file external/carver_output/results/nps-2009-gen6/carve26.jpg
+36087: Opening embed26-53.jpg..
+36094: Closing embed53.jpg.. (7 - 3675)
+36095: Opening embed26-54.jpg..
+37754: End Of Image 15
+
+37773: Start of image 27
+Creating new file external/carver_output/results/nps-2009-gen6/carve27.jpg
+37783: Opening embed27-55.jpg..
+37790: Closing embed55.jpg.. (7 - 3656)
+37791: Opening embed27-56.jpg..
+39410: End Of Image 16
+
+41005: Start of image 28
+Creating new file external/carver_output/results/nps-2009-gen6/carve28.jpg
+41015: Opening embed28-57.jpg..
+41022: Closing embed57.jpg.. (7 - 3757)
+41023: Opening embed28-58.jpg..
+42505: End Of Image 17
+
+42509: Start of image 29
+Creating new file external/carver_output/results/nps-2009-gen6/carve29.jpg
+42519: Opening embed29-59.jpg..
+42525: Closing embed59.jpg.. (6 - 3490)
+42526: Opening embed29-60.jpg..
+44150: End Of Image 18
+
+44173: Start of image 30
+Creating new file external/carver_output/results/nps-2009-gen6/carve30.jpg
+44183: Opening embed30-61.jpg..
+44189: Closing embed61.jpg.. (6 - 3528)
+44190: Opening embed30-62.jpg..
+45766: End Of Image 19
+
+45773: Start of image 31
+Creating new file external/carver_output/results/nps-2009-gen6/carve31.jpg
+45783: Opening embed31-63.jpg..
+45789: Closing embed63.jpg.. (6 - 3548)
+45790: Opening embed31-64.jpg..
+47455: End Of Image 20
+
+48685: Start of image 32
+Creating new file external/carver_output/results/nps-2009-gen6/carve32.jpg
+48695: Opening embed32-65.jpg..
+48702: Closing embed65.jpg.. (7 - 3686)
+48703: Opening embed32-66.jpg..
+Closing previous opened file
+49165: Start of image 33
+Creating new file external/carver_output/results/nps-2009-gen6/carve33.jpg
+49175: Opening embed33-67.jpg..
+49181: Closing embed67.jpg.. (6 - 3259)
+49182: Opening embed33-68.jpg..
+50628: End Of Image 21
+
+50637: Start of image 34
+Creating new file external/carver_output/results/nps-2009-gen6/carve34.jpg
+50647: Opening embed34-69.jpg..
+50653: Closing embed69.jpg.. (6 - 3561)
+50654: Opening embed34-70.jpg..
+52355: End Of Image 22
+
+52365: Start of image 35
+Creating new file external/carver_output/results/nps-2009-gen6/carve35.jpg
+52375: Opening embed35-71.jpg..
+52381: Closing embed71.jpg.. (6 - 3477)
+52382: Opening embed35-72.jpg..
+54016: End Of Image 23
+
+54029: Start of image 36
+Creating new file external/carver_output/results/nps-2009-gen6/carve36.jpg
+54039: Opening embed36-73.jpg..
+54045: Closing embed73.jpg.. (6 - 3507)
+54046: Opening embed36-74.jpg..
+55615: End Of Image 24
+
+57261: Start of image 37
+Creating new file external/carver_output/results/nps-2009-gen6/carve37.jpg
+57271: Opening embed37-75.jpg..
+57278: Closing embed75.jpg.. (7 - 3720)
+57279: Opening embed37-76.jpg..
+58984: End Of Image 25
+
+
+Finding embedded JPEG images
+external/carver_output/results/nps-2009-gen6/embed9-19.jpg was recovered successfuly
+external/carver_output/results/nps-2009-gen6/embed20-41.jpg was recovered successfuly
+external/carver_output/results/nps-2009-gen6/embed28-58.jpg was recovered successfuly
+external/carver_output/results/nps-2009-gen6/embed29-59.jpg was recovered successfuly
+external/carver_output/results/nps-2009-gen6/embed27-55.jpg was recovered successfuly
+external/carver_output/results/nps-2009-gen6/embed9-20.jpg was recovered successfuly
+external/carver_output/results/nps-2009-gen6/embed30-62.jpg was recovered successfuly
+external/carver_output/results/nps-2009-gen6/embed32-66.jpg is corrupted
+external/carver_output/results/nps-2009-gen6/embed31-63.jpg was recovered successfuly
+external/carver_output/results/nps-2009-gen6/embed11-23.jpg was recovered successfuly
+external/carver_output/results/nps-2009-gen6/embed18-38.jpg is corrupted
+external/carver_output/results/nps-2009-gen6/embed37-76.jpg is fragmented - decoder sector 1704 - decoder scanline 1192
+external/carver_output/results/nps-2009-gen6/embed19-40.jpg was recovered successfuly
+external/carver_output/results/nps-2009-gen6/embed3-8.jpg is corrupted
+external/carver_output/results/nps-2009-gen6/embed35-72.jpg was recovered successfuly
+external/carver_output/results/nps-2009-gen6/embed30-61.jpg was recovered successfuly
+external/carver_output/results/nps-2009-gen6/embed12-25.jpg was recovered successfuly
+external/carver_output/results/nps-2009-gen6/embed22-45.jpg was recovered successfuly
+external/carver_output/results/nps-2009-gen6/embed2-5.jpg was recovered successfuly
+external/carver_output/results/nps-2009-gen6/embed6-14.jpg was recovered successfuly
+external/carver_output/results/nps-2009-gen6/embed0-1.jpg is corrupted
+external/carver_output/results/nps-2009-gen6/embed12-26.jpg was recovered successfuly
+external/carver_output/results/nps-2009-gen6/embed18-37.jpg was recovered successfuly
+external/carver_output/results/nps-2009-gen6/embed4-10.jpg was recovered successfuly
+external/carver_output/results/nps-2009-gen6/embed34-69.jpg was recovered successfuly
+external/carver_output/results/nps-2009-gen6/embed29-60.jpg was recovered successfuly
+external/carver_output/results/nps-2009-gen6/embed8-18.jpg was recovered successfuly
+external/carver_output/results/nps-2009-gen6/embed8-17.jpg was recovered successfuly
+external/carver_output/results/nps-2009-gen6/embed33-67.jpg was recovered successfuly
+external/carver_output/results/nps-2009-gen6/embed15-32.jpg was recovered successfuly
+external/carver_output/results/nps-2009-gen6/embed15-31.jpg was recovered successfuly
+external/carver_output/results/nps-2009-gen6/embed1-4.jpg is corrupted
+external/carver_output/results/nps-2009-gen6/embed14-30.jpg was recovered successfuly
+external/carver_output/results/nps-2009-gen6/embed26-53.jpg was recovered successfuly
+external/carver_output/results/nps-2009-gen6/embed35-71.jpg was recovered successfuly
+external/carver_output/results/nps-2009-gen6/embed5-12.jpg is corrupted
+external/carver_output/results/nps-2009-gen6/embed17-36.jpg was recovered successfuly
+external/carver_output/results/nps-2009-gen6/embed36-74.jpg was recovered successfuly
+external/carver_output/results/nps-2009-gen6/embed16-33.jpg was recovered successfuly
+external/carver_output/results/nps-2009-gen6/embed10-21.jpg was recovered successfuly
+external/carver_output/results/nps-2009-gen6/embed13-28.jpg was recovered successfuly
+external/carver_output/results/nps-2009-gen6/embed5-11.jpg was recovered successfuly
+external/carver_output/results/nps-2009-gen6/embed16-34.jpg was recovered successfuly
+external/carver_output/results/nps-2009-gen6/embed7-16.jpg was recovered successfuly
+external/carver_output/results/nps-2009-gen6/embed28-57.jpg was recovered successfuly
+external/carver_output/results/nps-2009-gen6/embed2-6.jpg was recovered successfuly
+external/carver_output/results/nps-2009-gen6/embed1-3.jpg was recovered successfuly
+external/carver_output/results/nps-2009-gen6/embed13-27.jpg was recovered successfuly
+external/carver_output/results/nps-2009-gen6/embed22-46.jpg was recovered successfuly
+external/carver_output/results/nps-2009-gen6/embed14-29.jpg was recovered successfuly
+external/carver_output/results/nps-2009-gen6/embed21-44.jpg was recovered successfuly
+external/carver_output/results/nps-2009-gen6/embed7-15.jpg was recovered successfuly
+external/carver_output/results/nps-2009-gen6/embed24-50.jpg was recovered successfuly
+external/carver_output/results/nps-2009-gen6/embed33-68.jpg was recovered successfuly
+external/carver_output/results/nps-2009-gen6/embed36-73.jpg was recovered successfuly
+external/carver_output/results/nps-2009-gen6/embed23-47.jpg was recovered successfuly
+external/carver_output/results/nps-2009-gen6/embed23-48.jpg is corrupted
+external/carver_output/results/nps-2009-gen6/embed17-35.jpg was recovered successfuly
+external/carver_output/results/nps-2009-gen6/embed11-24.jpg was recovered successfuly
+external/carver_output/results/nps-2009-gen6/embed6-13.jpg was recovered successfuly
+external/carver_output/results/nps-2009-gen6/embed27-56.jpg was recovered successfuly
+external/carver_output/results/nps-2009-gen6/embed25-51.jpg was recovered successfuly
+external/carver_output/results/nps-2009-gen6/embed37-75.jpg was recovered successfuly
+external/carver_output/results/nps-2009-gen6/embed20-42.jpg was recovered successfuly
+external/carver_output/results/nps-2009-gen6/embed4-9.jpg was recovered successfuly
+external/carver_output/results/nps-2009-gen6/embed31-64.jpg was recovered successfuly
+external/carver_output/results/nps-2009-gen6/embed21-43.jpg was recovered successfuly
+external/carver_output/results/nps-2009-gen6/embed0-2.jpg is corrupted
+external/carver_output/results/nps-2009-gen6/embed24-49.jpg was recovered successfuly
+external/carver_output/results/nps-2009-gen6/embed19-39.jpg was recovered successfuly
+external/carver_output/results/nps-2009-gen6/embed10-22.jpg is corrupted
+external/carver_output/results/nps-2009-gen6/embed34-70.jpg was recovered successfuly
+external/carver_output/results/nps-2009-gen6/embed3-7.jpg was recovered successfuly
+external/carver_output/results/nps-2009-gen6/embed32-65.jpg was recovered successfuly
+external/carver_output/results/nps-2009-gen6/embed25-52.jpg was recovered successfuly
+external/carver_output/results/nps-2009-gen6/embed26-54.jpg was recovered successfuly
+
+Finding fully-recovered JPEG images
+external/carver_output/results/nps-2009-gen6/carve19.jpg was recovered successfuly
+external/carver_output/results/nps-2009-gen6/carve16.jpg was recovered successfuly
+external/carver_output/results/nps-2009-gen6/carve22.jpg was recovered successfuly
+external/carver_output/results/nps-2009-gen6/carve2.jpg was recovered successfuly
+external/carver_output/results/nps-2009-gen6/carve8.jpg was recovered successfuly
+external/carver_output/results/nps-2009-gen6/carve21.jpg was recovered successfuly
+external/carver_output/results/nps-2009-gen6/carve14.jpg was recovered successfuly
+external/carver_output/results/nps-2009-gen6/carve25.jpg was recovered successfuly
+external/carver_output/results/nps-2009-gen6/carve17.jpg was recovered successfuly
+external/carver_output/results/nps-2009-gen6/carve28.jpg was recovered successfuly
+external/carver_output/results/nps-2009-gen6/carve4.jpg was recovered successfuly
+external/carver_output/results/nps-2009-gen6/carve13.jpg was recovered successfuly
+external/carver_output/results/nps-2009-gen6/carve9.jpg was recovered successfuly
+external/carver_output/results/nps-2009-gen6/carve27.jpg was recovered successfuly
+external/carver_output/results/nps-2009-gen6/carve30.jpg was recovered successfuly
+external/carver_output/results/nps-2009-gen6/carve7.jpg was recovered successfuly
+external/carver_output/results/nps-2009-gen6/carve6.jpg was recovered successfuly
+external/carver_output/results/nps-2009-gen6/carve33.jpg was recovered successfuly
+external/carver_output/results/nps-2009-gen6/carve34.jpg was recovered successfuly
+external/carver_output/results/nps-2009-gen6/carve11.jpg was recovered successfuly
+external/carver_output/results/nps-2009-gen6/carve12.jpg was recovered successfuly
+external/carver_output/results/nps-2009-gen6/carve15.jpg was recovered successfuly
+external/carver_output/results/nps-2009-gen6/carve35.jpg was recovered successfuly
+external/carver_output/results/nps-2009-gen6/carve20.jpg was recovered successfuly
+external/carver_output/results/nps-2009-gen6/carve29.jpg was recovered successfuly
+external/carver_output/results/nps-2009-gen6/carve37.jpg was recovered successfuly
+external/carver_output/results/nps-2009-gen6/carve36.jpg was recovered successfuly
+external/carver_output/results/nps-2009-gen6/carve31.jpg was recovered successfuly
+external/carver_output/results/nps-2009-gen6/carve24.jpg was recovered successfuly
+external/carver_output/results/nps-2009-gen6/carve26.jpg was recovered successfuly
+
+Finding fragmented and corrupted JPEG images
+external/carver_output/results/nps-2009-gen6/carve1.jpg is fragmented (Decoder)   - sector: 64; line: 120
+external/carver_output/results/nps-2009-gen6/carve1.jpg is fragmented (Thumbnail) - sector: 64; line: 128
+external/carver_output/results/nps-2009-gen6/carve23.jpg is fragmented (Decoder)   - sector: 160; line: 88
+external/carver_output/results/nps-2009-gen6/carve23.jpg is fragmented (Thumbnail) - sector: 160; line: 96
+external/carver_output/results/nps-2009-gen6/carve10.jpg is fragmented (Decoder)   - sector: 64; line: 112
+external/carver_output/results/nps-2009-gen6/carve10.jpg is fragmented (Thumbnail) - sector: 62; line: 112
+external/carver_output/results/nps-2009-gen6/disk_image_temp.rawexternal/carver_output/results/nps-2009-gen6/corrupted/disk_image_temp.raw is corrupted
+external/carver_output/results/nps-2009-gen6/carve18.jpg is fragmented (Decoder)   - sector: 1248; line: 624
+external/carver_output/results/nps-2009-gen6/carve18.jpg is fragmented (Thumbnail) - sector: 1246; line: 624
+external/carver_output/results/nps-2009-gen6/carve32.jpg is fragmented (Decoder)   - sector: 480; line: 280
+external/carver_output/results/nps-2009-gen6/carve32.jpg is fragmented (Thumbnail) - sector: 480; line: 288
+external/carver_output/results/nps-2009-gen6/carve5.jpg is fragmented (Decoder)   - sector: 2016; line: 1336
+external/carver_output/results/nps-2009-gen6/carve5.jpg is fragmented (Thumbnail) - sector: 482; line: 288
+external/carver_output/results/nps-2009-gen6/carve3.jpg is fragmented (Decoder)   - sector: 544; line: 224
+external/carver_output/results/nps-2009-gen6/carve3.jpg is fragmented (Thumbnail) - sector: 544; line: 232
