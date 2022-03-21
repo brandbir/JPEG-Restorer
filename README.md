@@ -9,7 +9,7 @@ File carving tools carry out file recovery whenever the file-system meta-data is
 
 ### Part A: COMPILATION PROCESS
 
-1. Download the ``test_set`` folder from: `https://drive.google.com/open?id=0B51b8cbLqEBHNnRqOXp4QkY5dW8`
+1. Download the [testing set](https://drive.google.com/drive/folders/0B51b8cbLqEBHNnRqOXp4QkY5dW8?resourcekey=0-x5kCRAejmTO3a_0fkGlVsA&usp=sharing)
 1. Locate JPEG-Restorer/Debug
 
 2. Make sure that the following dependencies and open-source libraries are available on your machine
